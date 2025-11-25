@@ -1,77 +1,89 @@
-🎬 Movie Website – ASP.NET MVC (.NET 8)
+# 🎬 Movie Website – ASP.NET Core MVC (.NET 8)
 
-Website xem phim trực tuyến được phát triển bằng ASP.NET Core MVC kết hợp Entity Framework Core và SQL Server.
-Hệ thống bao gồm giao diện người dùng và trang quản trị, hỗ trợ xem phim, tìm kiếm, đánh giá, bình luận và quản lý nội dung.
+Website xem phim trực tuyến được phát triển bằng **ASP.NET Core MVC (.NET 8)** kết hợp **Entity Framework Core**, **SQL Server**, và **Bootstrap 5**.  
+Hệ thống bao gồm giao diện người dùng (User) và trang quản trị (Admin), cho phép xem phim, tìm kiếm, đánh giá, bình luận, quản lý nội dung và phân quyền người dùng.
 
-🚀 Tính năng chính
-👥 Người dùng (User)
+---
 
-Đăng ký / đăng nhập / đăng xuất
+## 🚀 Tính năng chính
 
-Xác thực email (verify)
+### 👥 Người dùng (User)
+- Đăng ký / đăng nhập / đăng xuất  
+- Xác thực email (Email Verification)  
+- Quên mật khẩu + đặt lại mật khẩu  
+- Xem danh sách phim  
+- Tìm kiếm phim theo:
+  - Tên phim  
+  - Thể loại  
+  - Quốc gia  
+- Xem chi tiết phim  
+- Xem video phim trực tuyến  
+- Bình luận phim  
+- Đánh giá (1–5 sao)  
+- Thêm phim vào danh sách yêu thích  
+- Lịch sử xem phim  
+- Chỉnh sửa thông tin cá nhân  
 
-Quên mật khẩu + đặt lại mật khẩu
+---
 
-Xem danh sách phim
+### 🛠 Quản trị viên (Admin)
+- Quản lý phim (thêm, sửa, xóa)
+- Quản lý thể loại phim
+- Quản lý quốc gia phim
+- Quản lý người dùng
+- Quản lý bình luận
+- Quản lý đánh giá
+- Dashboard tổng quan
+- Phân quyền User / Admin
 
-Tìm kiếm phim theo:
+---
 
-Tên phim
+## 🧱 Công nghệ sử dụng
 
-Thể loại
+### 🔹 Backend
+- **ASP.NET Core MVC (.NET 8)**
+- **Entity Framework Core** (Code First)
+- **LINQ**
+- Authentication & Authorization (ASP.NET Identity)
+- Logging với **NLog** 
 
-Quốc gia
+### 🔹 Frontend
+- **HTML, CSS**
+- **Bootstrap 5**
+- **Razor Views**
 
-Xem trang chi tiết phim
+### 🔹 Database
+- **SQL Server**
 
-Xem video phim trực tuyến
+---
 
-Bình luận phim
+## ⚙️ Cách chạy dự án (FULL)
 
-Đánh giá (1–5 sao)
+### 1️⃣ Clone dự án
+git clone https://github.com/KhietLoi/PhimHay.git
 
-Lưu phim yêu thích
+### 2️⃣ Mở solution
+Mở file:
+MovieWebsite.sln
+bằng Visual Studio 2022.
 
-Lịch sử xem phim
+### 3️⃣ Tạo database (nếu chưa có)
+CREATE DATABASE PhimHayDB;
 
-Chỉnh sửa thông tin cá nhân
+### 4️⃣ Sửa connection string trong appsettings.json trong đó YOUR_DATABASE_SERVER là tên SQL Server trên máy bạn
+"DefaultConnection": "Server=YOUR_DATABASE_SERVER;Database=PhimHayDB;Trusted_Connection=True;TrustServerCertificate=True;"
 
-🛠 Quản trị viên (Admin)
+### 5️⃣ Cập nhật database
+Update-Database
 
-Quản lý phim (thêm, sửa, xóa)
+### 6️⃣ Chạy dự án
+Nhấn F5 trong Visual Studio.
 
-Quản lý thể loại
+Truy cập:
+https://localhost:7xxx  (port tự sinh)
 
-Quản lý người dùng
+### 🔑 Tài khoản Admin mặc định
+Email: admin@example.com
+Mật khẩu: Admin@123
 
-Quản lý bình luận
-
-Quản lý đánh giá
-
-Dashboard đơn giản
-
-Phân quyền User / Admin
-
-🧱 Công nghệ sử dụng
-Backend
-
-ASP.NET Core MVC (.NET 8)
-
-Entity Framework Core
-
-LINQ
-
-Authentication & Authorization
-
-NLog hoặc Logging mặc định của .NET
-
-Frontend
-
-HTML, CSS
-
-Bootstrap 5
-
-Razor Views
-
-Database
 
