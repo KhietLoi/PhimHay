@@ -1,0 +1,155 @@
+﻿@model List<MovieWebsite.Controllers.AdminController.UserAdminViewModel>
+@{
+    ViewData["Title"] = "Quản lý người dùng";
+    ViewData["ActivePage"] = "Users";
+    Layout = "_AdminLayout";
+    int totalUsers = ViewData["TotalUsers"] != null ? (int)ViewData["TotalUsers"] : 0;
+    string searchTerm = ViewData["SearchTerm"] as string ?? "";
+    string sortOrder = ViewData["SortOrder"] as string ?? "newest";
+}
+
+<!-- Content Header -->
+<div class="content-header">
+    <div>
+        <h1 class="content-title">Danh sách người dùng</h1>
+        <span class="badge bg-primary">Số lượng: @totalUsers</span>
+    </div>
+    <div class="content-filters">
+        <div class="dropdown">
+            <button class="btn btn-outline-secondary dropdown-toggle" type="button" id="sortDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                Sắp xếp: @(sortOrder == "alphabetical" ? "Bảng chữ cái" : "Mới nhất")
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="sortDropdown">
+                <li><a class="dropdown-item sort-option" href="#" data-sort="newest">Mới nhất</a></li>
+                <li><a class="dropdown-item sort-option" href="#" data-sort="alphabetical">Bảng chữ cái</a></li>
+            </ul>
+        </div>
+        <form id="searchForm" method="get" asp-controller="Admin" asp-action="Users" class="d-flex">
+            <input type="hidden" id="sortOrderInput" name="sortOrder" value="@sortOrder" />
+            <div class="input-group">
+                <input type="text" class="form-control" id="searchUsers" name="searchTerm" placeholder="Tìm kiếm..."
+                       value="@searchTerm" aria-label="Search">
+                <button class="btn btn-outline-primary" type="submit">
+                    <i class="bi bi-search"></i>
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<!-- Users Table -->
+<div class="table-responsive">
+    <table class="table table-hover align-middle">
+        <thead class="table-light">
+            <tr>
+                <th scope="col">ID</th>
+                <th scope="col">Thông tin cơ bản</th>
+                <th scope="col">Email</th>
+                <th scope="col">Bình luận</th>
+                <th scope="col">Đánh giá</th>
+                <th scope="col">Ngày tạo</th>
+                <th scope="col">Hành động</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var user in Model)
+            {
+                <tr>
+                    <td>@user.Id</td>
+                    <td>
+                        <div class="d-flex align-items-center">
+                            <img src="@user.AvatarUrl" class="rounded-circle me-2" alt="Profile" width="40" height="40">
+                            <span>@user.Username</span>
+                        </div>
+                    </td>
+                    <td>@user.Email</td>
+                    <td>@user.CommentCount</td>
+                    <td>@user.RatingCount</td>
+                    <td>@user.CreatedAt.ToString("dd/MM/yyyy")</td>
+                    <td>
+                        <a asp-controller="Admin" asp-action="EditUser" asp-route-id="@user.Id" class="btn btn-sm btn-outline-secondary">
+                            <i class="bi bi-pencil-square"></i>
+                        </a>
+                        <button type="button" class="btn btn-sm btn-danger"
+                                data-bs-toggle="modal"
+                                data-bs-target="#deleteUserModal"
+                                data-user-id="@user.Id"
+                                data-username="@user.Username">
+                            <i class="bi bi-trash"></i>
+                        </button>
+                    </td>
+                </tr>
+            }
+            @if (!Model.Any())
+            {
+                <tr>
+                    <td colspan="7" class="text-center py-3">
+                        <em>No users found @(searchTerm != "" ? $"matching '{searchTerm}'" : "")</em>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<!-- Delete User Modal -->
+<div class="modal fade" id="deleteUserModal" tabindex="-1" aria-labelledby="deleteUserModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header bg-danger text-white">
+                <h5 class="modal-title" id="deleteUserModalLabel">Xác nhận</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Bạn có chắc muốn xóa người dùng này "<span id="usernameToDelete"></span>"?</p>
+                <p class="text-danger mb-0"><strong>Cảnh báo:</strong> Không thể hoàn tác hành động này. Tất cả dữ liệu người dùng bao gồm bình luận và xếp hạng sẽ bị xóa.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Hủy</button>
+                <form id="deleteUserForm" asp-controller="Admin" asp-action="DeleteUser" method="post">
+                    @Html.AntiForgeryToken()
+                    <input type="hidden" id="userIdToDelete" name="id" />
+                    <button type="submit" class="btn btn-danger">Xóa</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('Users admin page loaded');
+
+            // Setup delete user modal
+            const deleteUserModal = document.getElementById('deleteUserModal');
+            if (deleteUserModal) {
+                deleteUserModal.addEventListener('show.bs.modal', function(event) {
+                    const button = event.relatedTarget;
+                    const userId = button.getAttribute('data-user-id');
+                    const username = button.getAttribute('data-username');
+
+                    const inputId = deleteUserModal.querySelector('#userIdToDelete');
+                    const usernameSpan = deleteUserModal.querySelector('#usernameToDelete');
+
+                    if (inputId) inputId.value = userId;
+                    if (usernameSpan) usernameSpan.textContent = username;
+                });
+            }
+
+            // Setup sort dropdown functionality
+            const sortOptions = document.querySelectorAll('.sort-option');
+            const sortOrderInput = document.getElementById('sortOrderInput');
+            const searchForm = document.getElementById('searchForm');
+
+            sortOptions.forEach(option => {
+                option.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const sortValue = this.getAttribute('data-sort');
+                    sortOrderInput.value = sortValue;
+                    searchForm.submit();
+                });
+            });
+        });
+    </script>
+}

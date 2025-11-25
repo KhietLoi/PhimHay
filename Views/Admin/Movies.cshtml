@@ -1,0 +1,162 @@
+﻿@model List<MovieWebsite.Controllers.AdminController.MovieAdminViewModel>
+@{
+    ViewData["Title"] = "Quản lý phim";
+    ViewData["ActivePage"] = "Movies";
+    Layout = "_AdminLayout";
+    int totalMovies = ViewData["TotalMovies"] != null ? (int)ViewData["TotalMovies"] : 0;
+    string searchTerm = ViewData["SearchTerm"] as string ?? "";
+    string sortOrder = ViewData["SortOrder"] as string ?? "latest";
+}
+
+<!-- Content Header -->
+<div class="content-header">
+    <div>
+        <h1 class="content-title">Danh sách phim</h1>
+        <span class="badge bg-primary">Số lượng: @totalMovies</span>
+    </div>
+    <div class="content-filters">
+        <div class="dropdown">
+            <button class="btn btn-outline-secondary dropdown-toggle" type="button" id="sortDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                Sắp xếp: @(sortOrder switch
+                {
+                    "latest" => "Mới nhất",
+                    "views" => "Nhiều lượt xem nhất",
+                    "rating" => "Được đánh giá cao nhất",
+                    "title" => "A-Z",
+                    _ => "Latest"
+                })
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="sortDropdown">
+                <li><a class="dropdown-item sort-option" href="#" data-sort="latest">Mới nhất</a></li>
+                <li><a class="dropdown-item sort-option" href="#" data-sort="views">Nhiều lượt xem nhất</a></li>
+                <li><a class="dropdown-item sort-option" href="#" data-sort="rating">Được đánh giá cao nhất</a></li>
+                <li><a class="dropdown-item sort-option" href="#" data-sort="title">A-Z</a></li>
+            </ul>
+        </div>
+        <form id="searchForm" method="get" asp-controller="Admin" asp-action="Movies" class="d-flex">
+            <input type="hidden" id="sortOrderInput" name="sortOrder" value="@sortOrder" />
+            <div class="input-group">
+                <input type="text" class="form-control" id="searchMovies" name="searchTerm" placeholder="Tìm kiếm..."
+                       value="@searchTerm" aria-label="Search">
+                <button class="btn btn-outline-primary" type="submit">
+                    <i class="bi bi-search"></i>
+                </button>
+            </div>
+        </form>
+        <a href="/Admin/AddMovie" class="btn btn-primary">
+            <i class="bi bi-plus-lg"></i> Thêm
+        </a>
+    </div>
+</div>
+
+<!-- Movies Table -->
+<div class="table-responsive">
+    <table class="table table-hover align-middle">
+        <thead class="table-light">
+            <tr>
+                <th scope="col">ID</th>
+                <th scope="col">Tựa đề</th>
+                <th scope="col">Đánh giá</th>
+                <th scope="col">Thể loại</th>
+                <th scope="col">Lượt xem</th>
+                <th scope="col">Ngày phát hành</th>
+                <th scope="col">Hành động</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var movie in Model)
+            {
+                <tr>
+                    <td>@movie.Id</td>
+                    <td>@movie.Title</td>
+                    <td>@movie.Rating.ToString("F1")</td>
+                    <td>@movie.Categories</td>
+                    <td>@movie.Views</td>
+                    <td>@movie.CreatedAt.ToString("dd/MM/yyyy")</td>
+                    <td>
+                        <a asp-controller="Admin" asp-action="EditMovie" asp-route-id="@movie.Id" class="btn btn-sm btn-outline-secondary">
+                            <i class="bi bi-pencil-square"></i>
+                        </a>
+                        <button type="button" class="btn btn-sm btn-danger"
+                                data-bs-toggle="modal"
+                                data-bs-target="#deleteMovieModal"
+                                data-movie-id="@movie.Id"
+                                data-movie-title="@movie.Title">
+                            <i class="bi bi-trash"></i>
+                        </button>
+                    </td>
+                </tr>
+            }
+            @if (!Model.Any())
+            {
+                <tr>
+                    <td colspan="7" class="text-center py-3">
+                        <em>No movies found @(searchTerm != "" ? $"matching '{searchTerm}'" : "")</em>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<!-- Delete Movie Modal -->
+<div class="modal fade" id="deleteMovieModal" tabindex="-1" aria-labelledby="deleteMovieModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header bg-danger text-white">
+                <h5 class="modal-title" id="deleteMovieModalLabel">Xác nhận</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Bạn có chắc muốn xóa bộ phim này không "<span id="movieTitleToDelete"></span>"?</p>
+                <p class="text-danger mb-0"><strong>Cảnh báo:</strong> Không thể hoàn tác hành động này.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Hủy</button>
+                <form id="deleteMovieForm" asp-controller="Admin" asp-action="DeleteMovie" method="post">
+                    @Html.AntiForgeryToken()
+                    <input type="hidden" id="movieIdToDelete" name="id" />
+                    <button type="submit" class="btn btn-danger">Xóa</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            console.log('Movies admin page loaded');
+
+            // Setup delete movie modal
+            const deleteMovieModal = document.getElementById('deleteMovieModal');
+            if (deleteMovieModal) {
+                deleteMovieModal.addEventListener('show.bs.modal', function (event) {
+                    const button = event.relatedTarget;
+                    const movieId = button.getAttribute('data-movie-id');
+                    const movieTitle = button.getAttribute('data-movie-title');
+
+                    const inputId = deleteMovieModal.querySelector('#movieIdToDelete');
+                    const titleSpan = deleteMovieModal.querySelector('#movieTitleToDelete');
+
+                    if (inputId) inputId.value = movieId;
+                    if (titleSpan) titleSpan.textContent = movieTitle;
+                });
+            }
+
+            // Setup sort dropdown functionality
+            const sortOptions = document.querySelectorAll('.sort-option');
+            const sortOrderInput = document.getElementById('sortOrderInput');
+            const searchForm = document.getElementById('searchForm');
+
+            sortOptions.forEach(option => {
+                option.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const sortValue = this.getAttribute('data-sort');
+                    sortOrderInput.value = sortValue;
+                    searchForm.submit();
+                });
+            });
+        });
+    </script>
+}

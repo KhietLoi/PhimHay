@@ -1,0 +1,277 @@
+﻿@{
+    ViewData["Title"] = ViewData["Title"] ?? "Quản trị viên";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Quản trị viên</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <style>
+        :root {
+            --sidebar-width: 250px;
+        }
+
+        body {
+            overflow-x: hidden;
+            background-color: #f8f9fa;
+        }
+
+        .admin-container {
+            display: flex;
+            min-height: 100vh;
+        }
+
+        .sidebar {
+            width: var(--sidebar-width);
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 100vh;
+            z-index: 1000;
+            background-color: #212529;
+            padding-top: 20px;
+            overflow-y: auto;
+            transition: all 0.3s;
+        }
+
+            .sidebar .logo {
+                padding: 15px 20px;
+                color: white;
+                border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+                margin-bottom: 20px;
+            }
+
+            .sidebar .nav-link {
+                color: rgba(255, 255, 255, 0.8);
+                padding: 12px 20px;
+                font-size: 1rem;
+                border-radius: 0;
+                transition: all 0.2s;
+            }
+
+                .sidebar .nav-link:hover {
+                    color: white;
+                    background-color: rgba(255, 255, 255, 0.1);
+                }
+
+                .sidebar .nav-link.active {
+                    color: white;
+                    background-color: rgba(255, 255, 255, 0.15);
+                    border-left: 4px solid #0d6efd;
+                }
+
+                .sidebar .nav-link i {
+                    margin-right: 10px;
+                    width: 20px;
+                    text-align: center;
+                }
+
+        .content-area {
+            flex: 1;
+            margin-left: var(--sidebar-width);
+            padding: 20px;
+            transition: all 0.3s;
+        }
+
+        .content-card {
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+            padding: 20px;
+        }
+
+        .content-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .content-title {
+            margin: 0;
+            font-size: 1.5rem;
+            font-weight: 600;
+        }
+
+        .content-filters {
+            display: flex;
+            gap: 10px;
+        }
+
+        /* User profile styles */
+        .user-profile {
+            display: flex;
+            align-items: center;
+            padding: 15px 20px;
+            color: white;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            margin-bottom: 10px;
+        }
+
+        .avatar {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background-color: #f1f1f1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 10px;
+            overflow: hidden;
+        }
+
+            .avatar img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+
+        .user-info {
+            flex: 1;
+        }
+
+        .username {
+            font-weight: 600;
+            margin: 0;
+            color: white;
+        }
+
+        .user-role {
+            font-size: 0.8rem;
+            color: rgba(255, 255, 255, 0.7);
+            margin: 0;
+        }
+
+        .logout-btn {
+            color: rgba(255, 255, 255, 0.7);
+            font-size: 1.2rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+            transition: all 0.2s;
+        }
+
+            .logout-btn:hover {
+                color: white;
+                background-color: rgba(255, 255, 255, 0.1);
+            }
+
+        /* Back button styles */
+        .back-button {
+            display: flex;
+            align-items: center;
+            color: white;
+            font-size: 1rem;
+            padding: 10px 20px;
+            margin-bottom: 15px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+
+            .back-button:hover {
+                background-color: rgba(255, 255, 255, 0.1);
+                color: white;
+            }
+
+            .back-button i {
+                margin-right: 10px;
+            }
+
+        /* Responsive Adjustments */
+        @@media (max-width: 768px) {
+            .sidebar
+
+        {
+            width: 100%;
+            height: auto;
+            position: relative;
+        }
+
+        .content-area {
+            margin-left: 0;
+        }
+
+        }
+    </style>
+</head>
+@RenderSection("Scripts", required: false)
+<body>
+    <div class="admin-container">
+        <!-- Sidebar Navigation -->
+        <div class="sidebar">
+            <!-- User Profile Section -->
+
+            <div class="logo">
+                <h3>🎬 PhimHay</h3>
+                @* <small>Admin</small>  *@
+            </div>
+
+            <div class="user-profile">
+                <div class="avatar">
+                    <img src="@(User.FindFirst("Avatar")?.Value ?? "/images/avt_macdinh.jpg")" alt="User Avatar">
+                </div>
+                <div class="user-info">
+                    <h6 class="username">@User.Identity.Name</h6>
+                    <p class="user-role">Admin</p>
+                </div>
+                <a href="/Account/Logout" class="logout-btn" title="Logout">
+                    <i class="bi bi-box-arrow-right"></i>
+                </a>
+            </div>
+
+            <ul class="nav flex-column">
+                <li class="nav-item">
+                    <a class="nav-link @(ViewData["ActivePage"]?.ToString() == "Dashboard" ? "active" : "")" href="/Admin/Index">
+                        <i class="bi bi-house"></i> Bảng điều khiển
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link @(ViewData["ActivePage"]?.ToString() == "Movies" ? "active" : "")" href="/Admin/Movies">
+                        <i class="bi bi-film"></i> Quản lý phim
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link @(ViewData["ActivePage"]?.ToString() == "Users" ? "active" : "")" href="/Admin/Users">
+                        <i class="bi bi-people"></i> Quản lý người dùng
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link @(ViewData["ActivePage"]?.ToString() == "Comments" ? "active" : "")" href="/Admin/Comments">
+                        <i class="bi bi-chat-left-text"></i> Quản lý bình luận
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link @(ViewData["ActivePage"]?.ToString() == "Ratings" ? "active" : "")" href="/Admin/Ratings">
+                        <i class="bi bi-star"></i> Quản lý đánh giá
+                    </a>
+                </li>
+                @* <li>
+                    <a href="/" class="back-button">
+                        <i class="bi bi-arrow-left"></i> Trở về trang chính
+                    </a>
+                </li> *@
+            </ul>
+        </div>
+
+        <!-- Main Content Area -->
+        <div class="content-area">
+            <div class="content-card">
+                @RenderBody()
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    @* @await RenderSectionAsync("Scripts", required: false) *@
+</body>
+</html>

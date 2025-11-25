@@ -1,0 +1,94 @@
+﻿@model Movie
+@{
+    ViewData["Title"] = "Thêm mới phim";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<div class="container-fluid py-4">
+    <h2 class="mb-4">@ViewData["Title"]</h2>
+    <div class="card shadow">
+        <div class="card-header bg-primary text-white">
+            <h3 class="card-title mb-0">Chi tiết</h3>
+        </div>
+        <div class="card-body">
+            <form method="post" asp-action="AddMovie" enctype="multipart/form-data">
+                @Html.AntiForgeryToken()
+                <input asp-for="MovieId" type="hidden" value="MV000" />
+                <input asp-for="CreatedAt" type="hidden" value="@DateTime.Now" />
+                @Html.ValidationSummary(true, "", new { @class = "text-danger mb-3" })
+
+                <div class="mb-3">
+                    <label asp-for="Title" class="form-label">Tựa đề</label>
+                    <input asp-for="Title" class="form-control" required />
+                    <span asp-validation-for="Title" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <label asp-for="Description" class="form-label">Mô tả</label>
+                    <textarea asp-for="Description" class="form-control" rows="5"></textarea>
+                    <span asp-validation-for="Description" class="text-danger"></span>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-md-6">
+                        <label asp-for="Duration" class="form-label">Thời lượng (phút)</label>
+                        <input asp-for="Duration" class="form-control" type="number" min="1" />
+                        <span asp-validation-for="Duration" class="text-danger"></span>
+                    </div>
+                    <div class="col-md-6">
+                        <label asp-for="RealeaseAt" class="form-label">Ngày phát hành</label>
+                        <input asp-for="RealeaseAt" class="form-control" type="date" />
+                        <span asp-validation-for="RealeaseAt" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label asp-for="Country" class="form-label">Quốc gia</label>
+                    <input asp-for="Country" class="form-control" />
+                    <span asp-validation-for="Country" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">Ảnh bìa</label>
+                    <div class="input-group">
+                        <input type="file" name="thumbnailFile" class="form-control" accept="image/*" />
+                    </div>
+                    <small class="form-text text-muted">Tải ảnh bìa cho phim</small>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="ThumbnailUrl" class="form-label">Đường dẫn ảnh bìa (tùy chọn)</label>
+                    <input asp-for="ThumbnailUrl" class="form-control" />
+                    <small class="form-text text-muted">Hoặc thêm đường link trực tiếp cho ảnh bìa của bộ phim</small>
+                    <span asp-validation-for="ThumbnailUrl" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="VideoUrl" class="form-label">Đường link phim</label>
+                    <input asp-for="VideoUrl" class="form-control" type="url" />
+                    <small class="form-text text-muted">Nhập đường link dẫn đến phim</small>
+                    <span asp-validation-for="VideoUrl" class="text-danger"></span>
+                </div>
+
+                <!-- Categories Selection -->
+                <div class="mb-3">
+                    <label class="form-label">Thể loại</label>
+                    <div class="border p-3 rounded">
+                        @foreach (var category in ViewBag.Categories)
+                        {
+                            <div class="form-check form-check-inline mb-2">
+                                <input class="form-check-input" type="checkbox" name="SelectedCategories" value="@category.CategoryId" id="cat_@category.CategoryId" />
+                                <label class="form-check-label" for="cat_@category.CategoryId">@category.CategoryName</label>
+                            </div>
+                        }
+                    </div>
+                    <small class="form-text text-muted">Chọn một hoặc nhiều thể lại cho phim</small>
+                </div>
+
+                <div class="d-flex justify-content-end mt-4">
+                    <a asp-controller="Admin" asp-action="Movies" class="btn btn-secondary me-2">Hủy</a>
+                    <button type="submit" class="btn btn-primary">Thêm</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

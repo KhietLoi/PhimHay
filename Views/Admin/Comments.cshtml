@@ -1,0 +1,170 @@
+﻿@using MovieWebsite.Models
+@model List<CommentAdminViewModel>
+@{
+    ViewData["Title"] = "Quản lý bình luận";
+    ViewData["ActivePage"] = "Comments";
+    Layout = "_AdminLayout";
+    var sortOrder = ViewData["SortOrder"] as string ?? "newest";
+    var searchTerm = ViewData["SearchTerm"] as string ?? "";
+    int totalComments = Model?.Count ?? 0;
+}
+
+<!-- Content Header -->
+<div class="content-header">
+    <div>
+        <h1 class="content-title">Danh sách bình luận</h1>
+        <span class="badge bg-primary">Số lượng: @totalComments</span>
+    </div>
+    <div class="content-filters">
+        <div class="dropdown">
+            <button class="btn btn-outline-secondary dropdown-toggle" type="button" id="sortDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                Sắp xếp: @(sortOrder == "oldest" ? "Cũ nhất" : sortOrder == "movie" ? "A-Z theo phim" : sortOrder == "user" ? "A-Z theo người dùng" : "Mới nhất")
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="sortDropdown">
+                <li><a class="dropdown-item sort-option" href="#" data-sort="newest">Mới nhất</a></li>
+                <li><a class="dropdown-item sort-option" href="#" data-sort="oldest">Cũ nhất</a></li>
+                <li><a class="dropdown-item sort-option" href="#" data-sort="movie">A-Z theo phim</a></li>
+                <li><a class="dropdown-item sort-option" href="#" data-sort="user">A-Z theo người dùng</a></li>
+            </ul>
+        </div>
+        <form id="searchForm" method="get" asp-controller="Admin" asp-action="Comments" class="d-flex">
+            <input type="hidden" id="sortOrderInput" name="sortOrder" value="@sortOrder" />
+            <div class="input-group">
+                <input type="text" class="form-control" id="searchComments" name="searchTerm" placeholder="Tìm kiếm theo tên người dùng hoặc phim..."
+                       value="@searchTerm" aria-label="Search">
+                <button class="btn btn-outline-primary" type="submit">
+                    <i class="bi bi-search"></i>
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+        @TempData["SuccessMessage"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+}
+
+<!-- Comments Table -->
+<div class="table-responsive">
+    <table class="table table-hover align-middle">
+        <thead class="table-light">
+            <tr>
+                <th scope="col">ID</th>
+                <th scope="col">Phim</th>
+                <th scope="col">Người dùng</th>
+                <th scope="col">Bình luận</th>
+                <th scope="col">Ngày tạo</th>
+                <th scope="col">Hành động</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var comment in Model)
+            {
+                <tr>
+                    <td>@comment.CommentId</td>
+                    <td>@comment.MovieTitle</td>
+                    <td>
+                        <div class="d-flex align-items-center">
+                            <span>@comment.UserName</span>
+                        </div>
+                    </td>
+                    <td>
+                        @if (comment.CommentText.Length > 100)
+                        {
+                            @(comment.CommentText.Substring(0, 100) + "...")
+                        }
+                        else
+                        {
+                            @comment.CommentText
+                        }
+                    </td>
+                    <td>@comment.CreatedAt.ToString("dd/MM/yyyy HH:mm")</td>
+                    <td>
+                        <button type="button" class="btn btn-sm btn-danger"
+                                data-bs-toggle="modal"
+                                data-bs-target="#deleteCommentModal"
+                                data-comment-id="@comment.CommentId"
+                                data-comment-text="@(comment.CommentText.Length > 30 ? comment.CommentText.Substring(0, 30) + "..." : comment.CommentText)">
+                            <i class="bi bi-trash"></i>
+                        </button>
+                    </td>
+                </tr>
+            }
+            @if (!Model.Any())
+            {
+                <tr>
+                    <td colspan="6" class="text-center py-3">
+                        <em>No comments found @(searchTerm != "" ? $"matching '{searchTerm}'" : "")</em>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<!-- Delete Comment Modal -->
+<div class="modal fade" id="deleteCommentModal" tabindex="-1" aria-labelledby="deleteCommentModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header bg-danger text-white">
+                <h5 class="modal-title" id="deleteCommentModalLabel">Xác nhận</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Bạn có chắc muốn xóa bình luận này?</p>
+                <p><strong>Bình luận:</strong> "<span id="commentTextToDelete"></span>"</p>
+                <p class="text-danger mb-0"><strong>Cảnh báo:</strong> Không thể hoàn tác hành động này.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Hủy</button>
+                <form id="deleteCommentForm" asp-controller="Admin" asp-action="DeleteComment" method="post">
+                    @Html.AntiForgeryToken()
+                    <input type="hidden" id="commentIdToDelete" name="id" />
+                    <button type="submit" class="btn btn-danger">Xóa</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('Comments admin page loaded');
+
+            // Setup delete comment modal
+            const deleteCommentModal = document.getElementById('deleteCommentModal');
+            if (deleteCommentModal) {
+                deleteCommentModal.addEventListener('show.bs.modal', function(event) {
+                    const button = event.relatedTarget;
+                    const commentId = button.getAttribute('data-comment-id');
+                    const commentText = button.getAttribute('data-comment-text');
+
+                    const inputId = deleteCommentModal.querySelector('#commentIdToDelete');
+                    const commentTextSpan = deleteCommentModal.querySelector('#commentTextToDelete');
+
+                    if (inputId) inputId.value = commentId;
+                    if (commentTextSpan) commentTextSpan.textContent = commentText;
+                });
+            }
+
+            // Setup sort dropdown functionality
+            const sortOptions = document.querySelectorAll('.sort-option');
+            const sortOrderInput = document.getElementById('sortOrderInput');
+            const searchForm = document.getElementById('searchForm');
+
+            sortOptions.forEach(option => {
+                option.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const sortValue = this.getAttribute('data-sort');
+                    sortOrderInput.value = sortValue;
+                    searchForm.submit();
+                });
+            });
+        });
+    </script>
+}

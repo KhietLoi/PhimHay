@@ -1,0 +1,91 @@
+﻿@model RegisterViewModel
+
+@{
+    Layout = "_Layout";
+}
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Đăng ký tài khoản</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="~/css/Register.css" />
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="form-container">
+            <h2 class="text-center text-2xl font-bold mb-4">Đăng ký tài khoản</h2>
+
+            <form method="post" class="needs-validation" novalidate>
+                @Html.AntiForgeryToken()
+
+                <div class="form-group">
+                    <label for="UserName" class="form-label">Tên người dùng</label>
+                    <input type="text" class="form-control @(ViewData.ModelState["UserName"]?.Errors.Count > 0 ? "is-invalid" : "")" id="UserName" name="UserName" value="@Model?.UserName" required />
+                    @if (ViewData.ModelState["UserName"]?.Errors.Count > 0)
+                    {
+                        <div class="text-danger">@ViewData.ModelState["UserName"].Errors[0].ErrorMessage</div>
+                    }
+                </div>
+
+                <div class="form-group">
+                    <label for="Email" class="form-label">Email</label>
+                    <input type="email" class="form-control @(ViewData.ModelState["Email"]?.Errors.Count > 0 ? "is-invalid" : "")" id="Email" name="Email" value="@Model?.Email" required />
+                    @if (ViewData.ModelState["Email"]?.Errors.Count > 0)
+                    {
+                        <div class="text-danger">@ViewData.ModelState["Email"].Errors[0].ErrorMessage</div>
+                    }
+                </div>
+
+                <div class="form-group">
+                    <label for="Password" class="form-label">Mật khẩu</label>
+                    <input type="password" class="form-control @(ViewData.ModelState["Password"]?.Errors.Count > 0 ? "is-invalid" : "")" id="Password" name="Password" required />
+                    @if (ViewData.ModelState["Password"]?.Errors.Count > 0)
+                    {
+                        <div class="text-danger">@ViewData.ModelState["Password"].Errors[0].ErrorMessage</div>
+                    }
+                </div>
+
+                <div class="form-group">
+                    <label for="ConfirmPassword" class="form-label">Xác nhận mật khẩu</label>
+                    <input type="password" class="form-control @(ViewData.ModelState["ConfirmPassword"]?.Errors.Count > 0 ? "is-invalid" : "")" id="ConfirmPassword" name="ConfirmPassword" required />
+                    @if (ViewData.ModelState["ConfirmPassword"]?.Errors.Count > 0)
+                    {
+                        <div class="text-danger">@ViewData.ModelState["ConfirmPassword"].Errors[0].ErrorMessage</div>
+                    }
+                </div>
+
+                <!-- General Error Display -->
+                @if (ViewData.ModelState.ContainsKey("") && ViewData.ModelState[""].Errors.Any())
+                {
+                    <div class="general-error">
+                        <div class="text-danger">@Html.Raw(ViewData.ModelState[""].Errors[0].ErrorMessage)</div>
+                    </div>
+                }
+
+                <button type="submit" class="btn btn-primary">Đăng ký</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script>
+        // Bootstrap form validation
+        document.addEventListener('DOMContentLoaded', function () {
+            const forms = document.querySelectorAll('.needs-validation');
+            Array.from(forms).forEach(form => {
+                form.addEventListener('submit', event => {
+                    if (!form.checkValidity()) {
+                        event.preventDefault();
+                        event.stopPropagation();
+                    }
+                    form.classList.add('was-validated');
+                }, false);
+            });
+        });
+    </script>
+</body>
+</html>

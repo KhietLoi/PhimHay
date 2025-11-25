@@ -1,0 +1,72 @@
+﻿@{
+    Layout = null;
+    var title = TempData["Title"]?.ToString() ?? "Thông báo";
+    var message = TempData["Message"]?.ToString() ?? "Vui lòng kiểm tra email của bạn.";
+}
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@title</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+
+        .notification-container {
+            text-align: center;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+            .notification-container h2 {
+                color: #28a745;
+                margin-bottom: 20px;
+            }
+
+            .notification-container p {
+                margin-bottom: 20px;
+                color: #333;
+            }
+
+            .notification-container button {
+                padding: 10px 20px;
+                background-color: #007bff;
+                color: white;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                font-size: 16px;
+            }
+
+                .notification-container button:hover {
+                    background-color: #0056b3;
+                }
+    </style>
+</head>
+<body>
+    <div class="notification-container">
+        <h2>@title</h2>
+        <p>@message</p>
+        <button onclick="redirectToLogin()">OK</button>
+    </div>
+
+    <script>
+        function redirectToLogin() {
+            window.location.href = "/Account/Login";
+        }
+
+        setTimeout(redirectToLogin, 300000); // tự động về login sau 5 phút
+    </script>
+</body>
+</html>

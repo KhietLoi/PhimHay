@@ -1,0 +1,123 @@
+﻿/* General Body and Layout */
+html, body {
+    height: 100%;
+    margin: 0;
+}
+main {
+    flex: 1 0 auto;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Navbar Styling */
+.navbar {
+    background: linear-gradient(90deg, #1a1a2e, #16213e);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+    padding: 1rem 2rem;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar-brand {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #e94560 !important;
+    transition: transform 0.3s ease;
+}
+
+    .navbar-brand:hover {
+        transform: scale(1.1);
+    }
+
+.nav-link {
+    color: #ffffff !important;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 0 1.5rem;
+    padding: 0.5rem 1rem;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+    .nav-link:hover {
+        color: #e94560 !important;
+        transform: scale(1.1);
+    }
+
+.dropdown-menu {
+    background-color: #1a1a2e;
+    border: none;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    min-width: 12rem;
+}
+
+.dropdown-item {
+    color: #ffffff;
+    font-size: 1rem;
+    padding: 0.5rem 1.5rem;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+    .dropdown-item:hover {
+        background-color: #e94560;
+        color: #ffffff;
+    }
+
+.form-control {
+    border-radius: 0.5rem;
+}
+
+.btn-outline-light {
+    border-radius: 0.5rem;
+    transition: background-color 0.3s ease;
+}
+
+    .btn-outline-light:hover {
+        background-color: #e94560;
+        border-color: #e94560;
+    }
+
+/* Card Styling */
+.card {
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+    .card:hover {
+        transform: translateY(-5px);
+    }
+
+/* Footer Styling */
+/*footer {
+    background: linear-gradient(90deg, #1a1a2e, #16213e);
+    padding: 40px 0;
+}
+
+    footer a {
+        color: #e94560;
+        text-decoration: none;
+        transition: color 0.3s ease;
+    }
+
+        footer a:hover {
+            color: #ffffff;
+        }
+
+.social-icons a {
+    color: #ffffff;
+    font-size: 1.5rem;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+    .social-icons a:hover {
+        color: #e94560;
+    }*/

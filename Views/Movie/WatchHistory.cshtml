@@ -1,0 +1,43 @@
+﻿@model List<MovieWebsite.Models.WatchHistory>
+
+@{
+    ViewData["Title"] = "Lịch sử xem phim";
+    Layout = "_Layout";
+}
+
+<div class="container mt-4">
+    <h2 class="mb-4">🕒 Lịch sử xem phim</h2>
+
+    @if (!Model.Any())
+    {
+        <p>Bạn chưa xem phim nào.</p>
+    }
+    else
+    {
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            @foreach (var item in Model)
+            {
+                <div class="col">
+                    <div class="card h-100 shadow-sm">
+                        <a href="@Url.Action("Detail", "Movie", new { id = item.MovieId })">
+                            <img src="@item.Movie.ThumbnailUrl" class="card-img-top" alt="@item.Movie.Title" />
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                <a href="@Url.Action("Detail", "Movie", new { id = item.MovieId })" class="text-dark text-decoration-none">
+                                    @item.Movie.Title
+                                </a>
+                            </h5>
+                            <p class="card-text text-muted">
+                                @item.Movie.Description?.Substring(0, Math.Min(100, item.Movie.Description.Length))...
+                            </p>
+                        </div>
+                        <div class="card-footer text-muted">
+                            Đã xem lúc: @item.WatchedAt.ToString("HH:mm dd/MM/yyyy")
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+</div>

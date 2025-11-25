@@ -1,0 +1,96 @@
+﻿@model FilterViewModel
+
+@{
+    Layout = "_Layout";
+}
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Danh sách Lọc Phim - MovieZone</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/Movie1.css" />
+</head>
+<body>
+    <h2>Danh sách phim</h2>
+
+    @if (!string.IsNullOrEmpty(Model.SelectedCategory) || !string.IsNullOrEmpty(Model.SelectedCountry))
+    {
+        <p>
+            Đang lọc theo:
+            @if (!string.IsNullOrEmpty(Model.SelectedCategory))
+            {
+                <strong>Thể loại:</strong> @Model.SelectedCategory
+            }
+            @if (!string.IsNullOrEmpty(Model.SelectedCountry))
+            {
+                <strong>Quốc gia:</strong> @Model.SelectedCountry
+            }
+            @if (!string.IsNullOrEmpty(Model.SearchQuery))
+            {
+            <p><strong>Kết quả tìm kiếm cho:</strong> "@Model.SearchQuery"</p>
+            }
+
+        </p>
+    }
+
+    <div class="movie-list">
+        @foreach (var movie in Model.Movies)
+        {
+            <div class="movie-item">
+                <img src="@movie.ThumbnailUrl" alt="@movie.Title" class="movie-image">
+                <div class="movie-badge">VietSub | FHD</div>
+                <div class="movie-details">
+                    <h5 class="movie-title">@movie.Title</h5>
+                    <p class="movie-description">@movie.Description</p>
+                    <p class="movie-duration">@movie.Duration</p>
+                    <a href="@Url.Action("Detail", "Movie", new { id = movie.MovieId })">
+                        <img src="@movie.ThumbnailUrl" alt="@movie.Title" class="movie-image" />
+                    </a>
+
+                    <h5 class="movie-title">
+                        <a href="@Url.Action("Detail", "Movie", new { id = movie.MovieId })">
+                            @movie.Title
+                        </a>
+                    </h5>
+                </div>
+            </div>
+        }
+    </div>
+
+    <!-- Pagination -->
+    <div class="pagination">
+        @if (Model.CurrentPage > 1)
+        {
+            <a href="@Url.Action("Filter", new {
+                category = Model.SelectedCategory,
+                country = Model.SelectedCountry,
+                sort = Model.SortOrder,
+                page = Model.CurrentPage - 1
+            })">&laquo;</a>
+        }
+
+        @for (var i = 1; i <= Model.TotalPages; i++)
+        {
+            <a href="@Url.Action("Filter", new {
+                category = Model.SelectedCategory,
+                country = Model.SelectedCountry,
+                sort = Model.SortOrder,
+                page = i
+            })" class="@(i == Model.CurrentPage ? "current" : "")">@i</a>
+        }
+
+        @if (Model.CurrentPage < Model.TotalPages)
+        {
+            <a href="@Url.Action("Filter", new {
+                category = Model.SelectedCategory,
+                country = Model.SelectedCountry,
+                sort = Model.SortOrder,
+                page = Model.CurrentPage + 1
+            })">&raquo;</a>
+        }
+    </div>
+</body>
+</html>

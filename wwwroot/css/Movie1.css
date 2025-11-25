@@ -1,0 +1,127 @@
+﻿
+body {
+    background-color: #1a1a2e;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+    color: #e94560;
+    margin-bottom: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.movie-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.movie-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+    .movie-item:hover {
+        transform: scale(1.05);
+    }
+
+.movie-image {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.movie-details {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    transform: translateY(100%);
+    transition: transform 0.3s ease;
+}
+
+.movie-item:hover .movie-details {
+    transform: translateY(0);
+}
+
+.movie-title {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin: 0;
+    color: #e94560;
+}
+
+.movie-description {
+    font-size: 0.9rem;
+    margin: 5px 0;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.movie-duration {
+    font-size: 0.8rem;
+    color: #ffd700;
+    margin: 0;
+}
+
+.movie-item a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 0.9rem;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+    .movie-item a:hover {
+        color: #e94560;
+    }
+
+/* Badges for Subtitles and Quality */
+.movie-badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #ffd700;
+    color: #1a1a2e;
+    padding: 3px 8px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+/* Pagination */
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+    .pagination a, .pagination span {
+        color: #ffffff;
+        background-color: #333;
+        padding: 8px 16px;
+        margin: 0 5px;
+        border-radius: 5px;
+        text-decoration: none;
+        transition: background-color 0.3s ease;
+    }
+
+        .pagination a:hover {
+            background-color: #e94560;
+        }
+
+    .pagination .current {
+        background-color: #e94560;
+        font-weight: bold;
+    }

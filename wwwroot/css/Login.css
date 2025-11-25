@@ -1,0 +1,77 @@
+﻿
+html, body {
+    height: 100%; /* Ensure the page takes up full viewport height */
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff; /* Match the dark theme */
+    color: rgba(0, 0, 0);
+}
+
+.main-content {
+    flex: 1 0 auto; /* Expand to fill available space, pushing footer down */
+}
+
+.form-container {
+    max-width: 500px;
+    margin: 5rem auto; /* Center the form with margin */
+    padding: 2rem;
+    background-color: #f8f9fa;
+    ; /* Darker background for form */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.btn-primary {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 1.1rem;
+    background-color: #007bff;
+    border: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+    .btn-primary:hover {
+        background-color: #0056b3;
+        transform: scale(1.02);
+    }
+
+.text-danger {
+    font-size: 0.875rem;
+    margin-top: 0.25rem;
+    color: #dc3545;
+    font-weight: 500;
+}
+
+.form-control.is-invalid {
+    border-color: #dc3545;
+    box-shadow: 0 0 5px rgba(220, 53, 69, 0.2);
+}
+
+.general-error {
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.register-link {
+    display: block;
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #007bff;
+    font-size: 0.9rem;
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+.register-link:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+

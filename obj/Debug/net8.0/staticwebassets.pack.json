@@ -1,0 +1,485 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\lpn31\\Computer\\.NET_Final\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\MovieWebsite.bundle.scp.css",
+      "PackagePath": "staticwebassets\\MovieWebsite.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\lpn31\\Computer\\.NET_Final\\wwwroot\\css\\Login.css",
+      "PackagePath": "staticwebassets\\css\\Login.css"
+    },
+    {
+      "Id": "C:\\Users\\lpn31\\Computer\\.NET_Final\\wwwroot\\css\\Movie1.css",
+      "PackagePath": "staticwebassets\\css\\Movie1.css"
+    },
+    {
+      "Id": "C:\\Users\\lpn31\\Computer\\.NET_Final\\wwwroot\\css\\Register.css",
+      "PackagePath": "staticwebassets\\css\\Register.css"
+    },
+    {
+      "Id": "C:\\Users\\lpn31\\Computer\\.NET_Final\\wwwroot\\css\\layout1.css",
+      "PackagePath": "staticwebassets\\css\\layout1.css"
+    },
+    {
+      "Id": "C:\\Users\\lpn31\\Computer\\.NET_Final\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\lpn31\\Computer\\.NET_Final\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\lpn31\\Computer\\.NET_Final\\wwwroot\\images\\avt_macdinh.jpg",
+      "PackagePath": "staticwebassets\\images\\avt_macdinh.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lpn31\\Computer\\.NET_Final\\wwwroot\\images\\phim1.png",
+      "PackagePath": "staticwebassets\\images\\phim1.png"
+    },
+    {
+      "Id": "C:\\Users\\lpn31\\Computer\\.NET_Final\\wwwroot\\images\\phim10.jpg",
+      "PackagePath": "staticwebassets\\images\\phim10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lpn31\\Computer\\.NET_Final\\wwwroot\\images\\phim11.jpg",
+      "PackagePath": "staticwebassets\\images\\phim11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lpn31\\Computer\\.NET_Final\\wwwroot\\images\\phim12.jpg",
+      "PackagePath": "staticwebassets\\images\\phim12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lpn31\\Computer\\.NET_Final\\wwwroot\\images\\phim13.jpg",
+      "PackagePath": "staticwebassets\\images\\phim13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lpn31\\Computer\\.NET_Final\\wwwroot\\images\\phim14.jpg",
+      "PackagePath": "staticwebassets\\images\\phim14.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lpn31\\Computer\\.NET_Final\\wwwroot\\images\\phim15.jpg",
+      "PackagePath": "staticwebassets\\images\\phim15.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lpn31\\Computer\\.NET_Final\\wwwroot\\images\\phim16.jpg",
+      "PackagePath": "staticwebassets\\images\\phim16.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lpn31\\Computer\\.NET_Final\\wwwroot\\images\\phim17.jpg",
+      "PackagePath": "staticwebassets\\images\\phim17.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lpn31\\Computer\\.NET_Final\\wwwroot\\images\\phim18.jpg",
+      "PackagePath": "staticwebassets\\images\\phim18.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lpn31\\Computer\\.NET_Final\\wwwroot\\images\\phim19.jpg",
+      "PackagePath": "staticwebassets\\images\\phim19.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lpn31\\Computer\\.NET_Final\\wwwroot\\images\\phim2.png",
+      "PackagePath": "staticwebassets\\images\\phim2.png"
+    },
+    {
+      "Id": "C:\\Users\\lpn31\\Computer\\.NET_Final\\wwwroot\\images\\phim20.jpg",
+      "PackagePath": "staticwebassets\\images\\phim20.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lpn31\\Computer\\.NET_Final\\wwwroot\\images\\phim21.jpg",
+      "PackagePath": "staticwebassets\\images\\phim21.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lpn31\\Computer\\.NET_Final\\wwwroot\\images\\phim3.png",
+      "PackagePath": "staticwebassets\\images\\phim3.png"
+    },
+    {
+      "Id": "C:\\Users\\lpn31\\Computer\\.NET_Final\\wwwroot\\images\\phim4.jpg",
+      "PackagePath": "staticwebassets\\images\\phim4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lpn31\\Computer\\.NET_Final\\wwwroot\\images\\phim5.jpg",
+      "PackagePath": "staticwebassets\\images\\phim5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lpn31\\Computer\\.NET_Final\\wwwroot\\images\\phim6.jpg",
+      "PackagePath": "staticwebassets\\images\\phim6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lpn31\\Computer\\.NET_Final\\wwwroot\\images\\phim7.jpg",
+      "PackagePath": "staticwebassets\\images\\phim7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lpn31\\Computer\\.NET_Final\\wwwroot\\images\\phim8.jpg",
+      "PackagePath": "staticwebassets\\images\\phim8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lpn31\\Computer\\.NET_Final\\wwwroot\\images\\phim9.jpg",
+      "PackagePath": "staticwebassets\\images\\phim9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lpn31\\Computer\\.NET_Final\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\lpn31\\Computer\\.NET_Final\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\lpn31\\Computer\\.NET_Final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\lpn31\\Computer\\.NET_Final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lpn31\\Computer\\.NET_Final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\lpn31\\Computer\\.NET_Final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lpn31\\Computer\\.NET_Final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\lpn31\\Computer\\.NET_Final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lpn31\\Computer\\.NET_Final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\lpn31\\Computer\\.NET_Final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lpn31\\Computer\\.NET_Final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\lpn31\\Computer\\.NET_Final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lpn31\\Computer\\.NET_Final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\lpn31\\Computer\\.NET_Final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lpn31\\Computer\\.NET_Final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\lpn31\\Computer\\.NET_Final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lpn31\\Computer\\.NET_Final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\lpn31\\Computer\\.NET_Final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lpn31\\Computer\\.NET_Final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\lpn31\\Computer\\.NET_Final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lpn31\\Computer\\.NET_Final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\lpn31\\Computer\\.NET_Final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lpn31\\Computer\\.NET_Final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\lpn31\\Computer\\.NET_Final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lpn31\\Computer\\.NET_Final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\lpn31\\Computer\\.NET_Final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lpn31\\Computer\\.NET_Final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\lpn31\\Computer\\.NET_Final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lpn31\\Computer\\.NET_Final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\lpn31\\Computer\\.NET_Final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lpn31\\Computer\\.NET_Final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\lpn31\\Computer\\.NET_Final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lpn31\\Computer\\.NET_Final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\lpn31\\Computer\\.NET_Final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lpn31\\Computer\\.NET_Final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\lpn31\\Computer\\.NET_Final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\lpn31\\Computer\\.NET_Final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\lpn31\\Computer\\.NET_Final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\lpn31\\Computer\\.NET_Final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\lpn31\\Computer\\.NET_Final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\lpn31\\Computer\\.NET_Final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\lpn31\\Computer\\.NET_Final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\lpn31\\Computer\\.NET_Final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\lpn31\\Computer\\.NET_Final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\lpn31\\Computer\\.NET_Final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\lpn31\\Computer\\.NET_Final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\lpn31\\Computer\\.NET_Final\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\lpn31\\Computer\\.NET_Final\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\lpn31\\Computer\\.NET_Final\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\lpn31\\Computer\\.NET_Final\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\lpn31\\Computer\\.NET_Final\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\lpn31\\Computer\\.NET_Final\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\lpn31\\Computer\\.NET_Final\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\lpn31\\Computer\\.NET_Final\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\lpn31\\Computer\\.NET_Final\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\lpn31\\Computer\\.NET_Final\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\lpn31\\Computer\\.NET_Final\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\lpn31\\Computer\\.NET_Final\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\lpn31\\Computer\\.NET_Final\\wwwroot\\uploads\\253c7e9f-4cac-4f0a-b886-0268604491d6.png",
+      "PackagePath": "staticwebassets\\uploads\\253c7e9f-4cac-4f0a-b886-0268604491d6.png"
+    },
+    {
+      "Id": "C:\\Users\\lpn31\\Computer\\.NET_Final\\wwwroot\\uploads\\4125ba34-542d-4441-974c-924bb19a4ef5.jpg",
+      "PackagePath": "staticwebassets\\uploads\\4125ba34-542d-4441-974c-924bb19a4ef5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lpn31\\Computer\\.NET_Final\\wwwroot\\uploads\\59eb620e-8810-40bb-951e-a0ca3dcc1adc.png",
+      "PackagePath": "staticwebassets\\uploads\\59eb620e-8810-40bb-951e-a0ca3dcc1adc.png"
+    },
+    {
+      "Id": "C:\\Users\\lpn31\\Computer\\.NET_Final\\wwwroot\\uploads\\e766302a-310e-4676-820e-382e12e8798b.jpg",
+      "PackagePath": "staticwebassets\\uploads\\e766302a-310e-4676-820e-382e12e8798b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lpn31\\Computer\\.NET_Final\\wwwroot\\uploads\\thumbnails\\05909b8b-af07-49a0-aae8-c948512803cb.jpg",
+      "PackagePath": "staticwebassets\\uploads\\thumbnails\\05909b8b-af07-49a0-aae8-c948512803cb.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lpn31\\Computer\\.NET_Final\\wwwroot\\uploads\\thumbnails\\0833ee4a-95af-46c5-a7da-89ea3eca9a43.jpg",
+      "PackagePath": "staticwebassets\\uploads\\thumbnails\\0833ee4a-95af-46c5-a7da-89ea3eca9a43.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lpn31\\Computer\\.NET_Final\\wwwroot\\uploads\\thumbnails\\0f7ad76a-4cb3-4429-9204-2aaad0201280.jpg",
+      "PackagePath": "staticwebassets\\uploads\\thumbnails\\0f7ad76a-4cb3-4429-9204-2aaad0201280.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lpn31\\Computer\\.NET_Final\\wwwroot\\uploads\\thumbnails\\1688639a-cfc7-469d-82ae-a6b4f48e09e9.jpg",
+      "PackagePath": "staticwebassets\\uploads\\thumbnails\\1688639a-cfc7-469d-82ae-a6b4f48e09e9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lpn31\\Computer\\.NET_Final\\wwwroot\\uploads\\thumbnails\\2d05e348-8cd6-4dc7-a0e7-d7e46f86bcbf.jpg",
+      "PackagePath": "staticwebassets\\uploads\\thumbnails\\2d05e348-8cd6-4dc7-a0e7-d7e46f86bcbf.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lpn31\\Computer\\.NET_Final\\wwwroot\\uploads\\thumbnails\\2fc89c09-81f6-40c2-8168-f0a519178153.jpg",
+      "PackagePath": "staticwebassets\\uploads\\thumbnails\\2fc89c09-81f6-40c2-8168-f0a519178153.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lpn31\\Computer\\.NET_Final\\wwwroot\\uploads\\thumbnails\\3950fd38-f3c2-46af-83c3-78c509c92375.jpg",
+      "PackagePath": "staticwebassets\\uploads\\thumbnails\\3950fd38-f3c2-46af-83c3-78c509c92375.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lpn31\\Computer\\.NET_Final\\wwwroot\\uploads\\thumbnails\\5038dbdc-2b9b-4f0f-99c6-6bec87c0bc1a.jpg",
+      "PackagePath": "staticwebassets\\uploads\\thumbnails\\5038dbdc-2b9b-4f0f-99c6-6bec87c0bc1a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lpn31\\Computer\\.NET_Final\\wwwroot\\uploads\\thumbnails\\57735597-82eb-4170-84fd-2693b684023e.jpg",
+      "PackagePath": "staticwebassets\\uploads\\thumbnails\\57735597-82eb-4170-84fd-2693b684023e.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lpn31\\Computer\\.NET_Final\\wwwroot\\uploads\\thumbnails\\5c5c2536-1c9b-4be0-af94-20556c796738.jpg",
+      "PackagePath": "staticwebassets\\uploads\\thumbnails\\5c5c2536-1c9b-4be0-af94-20556c796738.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lpn31\\Computer\\.NET_Final\\wwwroot\\uploads\\thumbnails\\613402ac-0861-41fd-bf3c-e40ff4c70414.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\thumbnails\\613402ac-0861-41fd-bf3c-e40ff4c70414.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\lpn31\\Computer\\.NET_Final\\wwwroot\\uploads\\thumbnails\\6a590c2e-2354-4f6c-8952-8cdaa8a2f061.jpg",
+      "PackagePath": "staticwebassets\\uploads\\thumbnails\\6a590c2e-2354-4f6c-8952-8cdaa8a2f061.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lpn31\\Computer\\.NET_Final\\wwwroot\\uploads\\thumbnails\\70e48ad4-5764-47ec-88e9-2c1f5ac8d588.jpg",
+      "PackagePath": "staticwebassets\\uploads\\thumbnails\\70e48ad4-5764-47ec-88e9-2c1f5ac8d588.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lpn31\\Computer\\.NET_Final\\wwwroot\\uploads\\thumbnails\\7e766fc8-81bd-47d3-b202-8d24e142ea37.jpg",
+      "PackagePath": "staticwebassets\\uploads\\thumbnails\\7e766fc8-81bd-47d3-b202-8d24e142ea37.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lpn31\\Computer\\.NET_Final\\wwwroot\\uploads\\thumbnails\\7e9be3d2-5936-4926-bb1d-ada33d49e8dd.jpg",
+      "PackagePath": "staticwebassets\\uploads\\thumbnails\\7e9be3d2-5936-4926-bb1d-ada33d49e8dd.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lpn31\\Computer\\.NET_Final\\wwwroot\\uploads\\thumbnails\\92fc9b46-94f5-405b-a961-62f475a3f39c.jpg",
+      "PackagePath": "staticwebassets\\uploads\\thumbnails\\92fc9b46-94f5-405b-a961-62f475a3f39c.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lpn31\\Computer\\.NET_Final\\wwwroot\\uploads\\thumbnails\\a847cfc9-36da-4cf8-84b0-24294f0baa19.jpg",
+      "PackagePath": "staticwebassets\\uploads\\thumbnails\\a847cfc9-36da-4cf8-84b0-24294f0baa19.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lpn31\\Computer\\.NET_Final\\wwwroot\\uploads\\thumbnails\\aa3dfd09-cb71-4dc8-a50f-87dbe0363685.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\thumbnails\\aa3dfd09-cb71-4dc8-a50f-87dbe0363685.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\lpn31\\Computer\\.NET_Final\\wwwroot\\uploads\\thumbnails\\aef02812-06f8-4021-aa3f-4acd605bf8e0.jpg",
+      "PackagePath": "staticwebassets\\uploads\\thumbnails\\aef02812-06f8-4021-aa3f-4acd605bf8e0.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lpn31\\Computer\\.NET_Final\\wwwroot\\uploads\\thumbnails\\b552c145-f4ce-4c79-ad29-a59d2b859407.jpg",
+      "PackagePath": "staticwebassets\\uploads\\thumbnails\\b552c145-f4ce-4c79-ad29-a59d2b859407.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lpn31\\Computer\\.NET_Final\\wwwroot\\uploads\\thumbnails\\b80666a9-9092-430f-a2d4-35dabf7763e2.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\thumbnails\\b80666a9-9092-430f-a2d4-35dabf7763e2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\lpn31\\Computer\\.NET_Final\\wwwroot\\uploads\\thumbnails\\c562e305-f220-4363-98e6-3069a06d4f01.jpg",
+      "PackagePath": "staticwebassets\\uploads\\thumbnails\\c562e305-f220-4363-98e6-3069a06d4f01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lpn31\\Computer\\.NET_Final\\wwwroot\\uploads\\thumbnails\\daee543d-0e0c-490a-8d98-c25f064c2f92.jpg",
+      "PackagePath": "staticwebassets\\uploads\\thumbnails\\daee543d-0e0c-490a-8d98-c25f064c2f92.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lpn31\\Computer\\.NET_Final\\wwwroot\\uploads\\thumbnails\\f6c3b289-fb77-4af9-ab84-5f6cb3a8a1da.jpg",
+      "PackagePath": "staticwebassets\\uploads\\thumbnails\\f6c3b289-fb77-4af9-ab84-5f6cb3a8a1da.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lpn31\\Computer\\.NET_Final\\wwwroot\\uploads\\thumbnails\\f8d5bfa9-230e-41f9-8e78-8c48003641c1.jpg",
+      "PackagePath": "staticwebassets\\uploads\\thumbnails\\f8d5bfa9-230e-41f9-8e78-8c48003641c1.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.MovieWebsite.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.MovieWebsite.props",
+      "PackagePath": "build\\MovieWebsite.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.MovieWebsite.props",
+      "PackagePath": "buildMultiTargeting\\MovieWebsite.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.MovieWebsite.props",
+      "PackagePath": "buildTransitive\\MovieWebsite.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,495 @@
+2025-05-12 12:23:01 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu tải trang chủ 
+2025-05-12 12:23:03 | INFO | MovieWebsite.Controllers.HomeController | Lấy danh sách phim thành công - Tổng số: 21 
+2025-05-12 12:23:03 | INFO | MovieWebsite.Controllers.HomeController | Lấy 3 phim nổi bật thành công 
+2025-05-12 12:23:20 | INFO | MovieWebsite.Controllers.AccountController | Đăng nhập thử với email: liem8000@gmail.com 
+2025-05-12 12:23:21 | INFO | MovieWebsite.Controllers.AccountController | Đăng nhập thành công cho user: liem8000@gmail.com, Role: User 
+2025-05-12 12:23:21 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu tải trang chủ 
+2025-05-12 12:23:21 | INFO | MovieWebsite.Controllers.HomeController | Lấy danh sách phim thành công - Tổng số: 21 
+2025-05-12 12:23:21 | INFO | MovieWebsite.Controllers.HomeController | Lấy 3 phim nổi bật thành công 
+2025-05-12 12:23:39 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu tải chi tiết phim - MovieId: MV003 
+2025-05-12 12:23:39 | INFO | MovieWebsite.Controllers.HomeController | Tải chi tiết phim thành công - MovieId: MV003 
+2025-05-12 12:23:42 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu thêm phim vào danh sách yêu thích - MovieId: MV003 
+2025-05-12 12:23:42 | INFO | MovieWebsite.Controllers.HomeController | Thêm phim vào danh sách yêu thích thành công - MovieId: MV003, UserId: KHC89E035A 
+2025-05-12 12:23:42 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu tải chi tiết phim - MovieId: MV003 
+2025-05-12 12:23:42 | INFO | MovieWebsite.Controllers.HomeController | Tải chi tiết phim thành công - MovieId: MV003 
+2025-05-12 12:23:47 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu thêm phim vào danh sách yêu thích - MovieId: MV003 
+2025-05-12 12:23:47 | INFO | MovieWebsite.Controllers.HomeController | Phim đã có trong danh sách yêu thích - MovieId: MV003, UserId: KHC89E035A 
+2025-05-12 12:23:47 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu tải chi tiết phim - MovieId: MV003 
+2025-05-12 12:23:47 | INFO | MovieWebsite.Controllers.HomeController | Tải chi tiết phim thành công - MovieId: MV003 
+2025-05-12 12:23:59 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu xem phim - MovieId: MV003 
+2025-05-12 12:23:59 | INFO | MovieWebsite.Controllers.HomeController | Thêm lịch sử xem phim - UserId: KHC89E035A, MovieId: MV003 
+2025-05-12 12:23:59 | INFO | MovieWebsite.Controllers.HomeController | Tải trang xem phim thành công - MovieId: MV003 
+2025-05-12 12:24:35 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu đánh giá phim - MovieId: MV003, Stars: 5 
+2025-05-12 12:24:35 | INFO | MovieWebsite.Controllers.HomeController | Thêm đánh giá phim mới - MovieId: MV003, UserId: KHC89E035A, Stars: 5 
+2025-05-12 12:24:35 | INFO | MovieWebsite.Controllers.HomeController | Đánh giá phim thành công - MovieId: MV003, UserId: KHC89E035A 
+2025-05-12 12:24:35 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu xem phim - MovieId: MV003 
+2025-05-12 12:24:35 | INFO | MovieWebsite.Controllers.HomeController | Cập nhật lịch sử xem phim - UserId: KHC89E035A, MovieId: MV003 
+2025-05-12 12:24:35 | INFO | MovieWebsite.Controllers.HomeController | Tải trang xem phim thành công - MovieId: MV003 
+2025-05-12 12:24:45 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu đánh giá phim - MovieId: MV003, Stars: 1 
+2025-05-12 12:24:45 | INFO | MovieWebsite.Controllers.HomeController | Cập nhật đánh giá phim - MovieId: MV003, UserId: KHC89E035A, Stars: 1 
+2025-05-12 12:24:45 | INFO | MovieWebsite.Controllers.HomeController | Đánh giá phim thành công - MovieId: MV003, UserId: KHC89E035A 
+2025-05-12 12:24:45 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu xem phim - MovieId: MV003 
+2025-05-12 12:24:45 | INFO | MovieWebsite.Controllers.HomeController | Cập nhật lịch sử xem phim - UserId: KHC89E035A, MovieId: MV003 
+2025-05-12 12:24:45 | INFO | MovieWebsite.Controllers.HomeController | Tải trang xem phim thành công - MovieId: MV003 
+2025-05-12 12:25:29 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu tải trang chủ 
+2025-05-12 12:25:29 | INFO | MovieWebsite.Controllers.HomeController | Lấy danh sách phim thành công - Tổng số: 21 
+2025-05-12 12:25:29 | INFO | MovieWebsite.Controllers.HomeController | Lấy 3 phim nổi bật thành công 
+2025-05-12 12:25:40 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu lọc phim - Category: (null), Country: (null), Sort: (null), Page: 1, IsNew: True 
+2025-05-12 12:25:40 | INFO | MovieWebsite.Controllers.HomeController | Áp dụng bộ lọc phim mới - Từ: 04/12/2025 12:25:40 
+2025-05-12 12:25:40 | INFO | MovieWebsite.Controllers.HomeController | Lọc phim thành công - Tổng số phim: 3, Trang: 1 
+2025-05-12 12:25:47 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu lọc phim - Category: Gia Đình, Country: (null), Sort: (null), Page: 1, IsNew: (null) 
+2025-05-12 12:25:47 | INFO | MovieWebsite.Controllers.HomeController | Áp dụng bộ lọc danh mục: Gia Đình 
+2025-05-12 12:25:48 | INFO | MovieWebsite.Controllers.HomeController | Lọc phim thành công - Tổng số phim: 1, Trang: 1 
+2025-05-12 12:25:51 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu tải chi tiết phim - MovieId: MV008 
+2025-05-12 12:25:51 | INFO | MovieWebsite.Controllers.HomeController | Tải chi tiết phim thành công - MovieId: MV008 
+2025-05-12 12:25:57 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu thêm phim vào danh sách yêu thích - MovieId: MV008 
+2025-05-12 12:25:57 | INFO | MovieWebsite.Controllers.HomeController | Thêm phim vào danh sách yêu thích thành công - MovieId: MV008, UserId: KHC89E035A 
+2025-05-12 12:25:57 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu tải chi tiết phim - MovieId: MV008 
+2025-05-12 12:25:57 | INFO | MovieWebsite.Controllers.HomeController | Tải chi tiết phim thành công - MovieId: MV008 
+2025-05-12 12:26:55 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu tải trang chủ 
+2025-05-12 12:26:56 | INFO | MovieWebsite.Controllers.HomeController | Lấy danh sách phim thành công - Tổng số: 21 
+2025-05-12 12:26:56 | INFO | MovieWebsite.Controllers.HomeController | Lấy 3 phim nổi bật thành công 
+2025-05-12 12:27:09 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu lọc phim - Category: (null), Country: Ấn Độ, Sort: (null), Page: 1, IsNew: (null) 
+2025-05-12 12:27:09 | INFO | MovieWebsite.Controllers.HomeController | Áp dụng bộ lọc quốc gia: Ấn Độ 
+2025-05-12 12:27:09 | INFO | MovieWebsite.Controllers.HomeController | Lọc phim thành công - Tổng số phim: 1, Trang: 1 
+2025-05-12 12:27:13 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu tải chi tiết phim - MovieId: MV003 
+2025-05-12 12:27:13 | INFO | MovieWebsite.Controllers.HomeController | Tải chi tiết phim thành công - MovieId: MV003 
+2025-05-12 12:27:14 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu xem phim - MovieId: MV003 
+2025-05-12 12:27:14 | INFO | MovieWebsite.Controllers.HomeController | Cập nhật lịch sử xem phim - UserId: KHC89E035A, MovieId: MV003 
+2025-05-12 12:27:15 | INFO | MovieWebsite.Controllers.HomeController | Tải trang xem phim thành công - MovieId: MV003 
+2025-05-12 12:27:22 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu tải chi tiết phim - MovieId: MV003 
+2025-05-12 12:27:22 | INFO | MovieWebsite.Controllers.HomeController | Tải chi tiết phim thành công - MovieId: MV003 
+2025-05-12 12:27:28 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu xem phim - MovieId: MV003 
+2025-05-12 12:27:28 | INFO | MovieWebsite.Controllers.HomeController | Cập nhật lịch sử xem phim - UserId: KHC89E035A, MovieId: MV003 
+2025-05-12 12:27:28 | INFO | MovieWebsite.Controllers.HomeController | Tải trang xem phim thành công - MovieId: MV003 
+2025-05-12 12:27:31 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu đánh giá phim - MovieId: MV003, Stars: 5 
+2025-05-12 12:27:31 | INFO | MovieWebsite.Controllers.HomeController | Cập nhật đánh giá phim - MovieId: MV003, UserId: KHC89E035A, Stars: 5 
+2025-05-12 12:27:32 | INFO | MovieWebsite.Controllers.HomeController | Đánh giá phim thành công - MovieId: MV003, UserId: KHC89E035A 
+2025-05-12 12:27:32 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu xem phim - MovieId: MV003 
+2025-05-12 12:27:32 | INFO | MovieWebsite.Controllers.HomeController | Cập nhật lịch sử xem phim - UserId: KHC89E035A, MovieId: MV003 
+2025-05-12 12:27:32 | INFO | MovieWebsite.Controllers.HomeController | Tải trang xem phim thành công - MovieId: MV003 
+2025-05-12 12:27:51 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu tải danh sách phim - Trang: 1 
+2025-05-12 12:27:51 | INFO | MovieWebsite.Controllers.HomeController | Tải danh sách phim thành công - Trang: 1, Tổng số phim: 21 
+2025-05-12 12:28:02 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu tải chi tiết phim - MovieId: MV001 
+2025-05-12 12:28:02 | INFO | MovieWebsite.Controllers.HomeController | Tải chi tiết phim thành công - MovieId: MV001 
+2025-05-12 12:28:03 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu xem phim - MovieId: MV001 
+2025-05-12 12:28:03 | INFO | MovieWebsite.Controllers.HomeController | Cập nhật lịch sử xem phim - UserId: KHC89E035A, MovieId: MV001 
+2025-05-12 12:28:03 | INFO | MovieWebsite.Controllers.HomeController | Tải trang xem phim thành công - MovieId: MV001 
+2025-05-12 12:28:06 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu thêm bình luận - MovieId: MV001 
+2025-05-12 12:28:06 | INFO | MovieWebsite.Controllers.HomeController | Thêm bình luận thành công - MovieId: MV001, UserId: KHC89E035A 
+2025-05-12 12:28:06 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu xem phim - MovieId: MV001 
+2025-05-12 12:28:06 | INFO | MovieWebsite.Controllers.HomeController | Cập nhật lịch sử xem phim - UserId: KHC89E035A, MovieId: MV001 
+2025-05-12 12:28:06 | INFO | MovieWebsite.Controllers.HomeController | Tải trang xem phim thành công - MovieId: MV001 
+2025-05-12 12:28:21 | INFO | MovieWebsite.Controllers.AccountController | Người dùng đăng xuất: liem8000@gmail.com 
+2025-05-12 14:07:41 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu tải trang chủ 
+2025-05-12 14:08:11 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu tải trang chủ 
+2025-05-12 14:08:55 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu tải trang chủ 
+2025-05-12 14:09:07 | INFO | MovieWebsite.Controllers.HomeController | Lấy danh sách phim thành công - Tổng số: 21 
+2025-05-12 14:09:07 | INFO | MovieWebsite.Controllers.HomeController | Lấy 3 phim nổi bật thành công 
+2025-05-12 14:09:21 | INFO | MovieWebsite.Controllers.AccountController | Đăng nhập thử với email: trankhietloi2004@gmail.com 
+2025-05-12 14:09:22 | WARN | MovieWebsite.Controllers.AccountController | Đăng nhập thất bại cho email: trankhietloi2004@gmail.com - Email hoặc mật khẩu không đúng 
+2025-05-12 14:09:24 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu tải trang chủ 
+2025-05-12 14:09:24 | INFO | MovieWebsite.Controllers.HomeController | Lấy danh sách phim thành công - Tổng số: 21 
+2025-05-12 14:09:24 | INFO | MovieWebsite.Controllers.HomeController | Lấy 3 phim nổi bật thành công 
+2025-05-12 14:09:58 | INFO | MovieWebsite.Controllers.AccountController | Đăng ký với email: trankhietloi2004@gmail.com 
+2025-05-12 14:10:02 | INFO | MovieWebsite.Controllers.AccountController | Đăng ký thành công cho user: trankhietloi2004@gmail.com, Đã gửi email xác minh 
+2025-05-12 14:10:45 | INFO | MovieWebsite.Controllers.AccountController | Bắt đầu xác minh tài khoản với token: 3e9d74f2-ac57-4024-98cb-028097fc9d39 
+2025-05-12 14:10:45 | INFO | MovieWebsite.Controllers.AccountController | Xác minh tài khoản thành công cho email: trankhietloi2004@gmail.com 
+2025-05-12 14:11:00 | INFO | MovieWebsite.Controllers.AccountController | Đăng nhập thử với email: trankhietloi2004@gmail.com 
+2025-05-12 14:11:00 | INFO | MovieWebsite.Controllers.AccountController | Đăng nhập thành công cho user: trankhietloi2004@gmail.com, Role: User 
+2025-05-12 14:11:01 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu tải trang chủ 
+2025-05-12 14:11:01 | INFO | MovieWebsite.Controllers.HomeController | Lấy danh sách phim thành công - Tổng số: 21 
+2025-05-12 14:11:01 | INFO | MovieWebsite.Controllers.HomeController | Lấy 3 phim nổi bật thành công 
+2025-05-12 14:11:54 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu tải trang chủ 
+2025-05-12 14:11:56 | INFO | MovieWebsite.Controllers.HomeController | Lấy danh sách phim thành công - Tổng số: 21 
+2025-05-12 14:11:56 | INFO | MovieWebsite.Controllers.HomeController | Lấy 3 phim nổi bật thành công 
+2025-05-12 14:12:07 | INFO | MovieWebsite.Controllers.AccountController | Người dùng đăng xuất: trankhietloi2004@gmail.com 
+2025-05-12 14:12:09 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu tải trang chủ 
+2025-05-12 14:12:09 | INFO | MovieWebsite.Controllers.HomeController | Lấy danh sách phim thành công - Tổng số: 21 
+2025-05-12 14:12:09 | INFO | MovieWebsite.Controllers.HomeController | Lấy 3 phim nổi bật thành công 
+2025-05-12 14:12:23 | INFO | MovieWebsite.Controllers.AccountController | Đăng nhập thử với email: trankhietloi2004@gmail.com 
+2025-05-12 14:12:23 | INFO | MovieWebsite.Controllers.AccountController | Đăng nhập thành công cho user: trankhietloi2004@gmail.com, Role: User 
+2025-05-12 14:12:23 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu tải trang chủ 
+2025-05-12 14:12:23 | INFO | MovieWebsite.Controllers.HomeController | Lấy danh sách phim thành công - Tổng số: 21 
+2025-05-12 14:12:23 | INFO | MovieWebsite.Controllers.HomeController | Lấy 3 phim nổi bật thành công 
+2025-05-12 14:12:27 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu lọc phim - Category: (null), Country: Ấn Độ, Sort: (null), Page: 1, IsNew: (null) 
+2025-05-12 14:12:27 | INFO | MovieWebsite.Controllers.HomeController | Áp dụng bộ lọc quốc gia: Ấn Độ 
+2025-05-12 14:12:27 | INFO | MovieWebsite.Controllers.HomeController | Lọc phim thành công - Tổng số phim: 1, Trang: 1 
+2025-05-12 14:12:29 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu lọc phim - Category: Cổ Trang, Country: (null), Sort: (null), Page: 1, IsNew: (null) 
+2025-05-12 14:12:29 | INFO | MovieWebsite.Controllers.HomeController | Áp dụng bộ lọc danh mục: Cổ Trang 
+2025-05-12 14:12:29 | INFO | MovieWebsite.Controllers.HomeController | Lọc phim thành công - Tổng số phim: 0, Trang: 1 
+2025-05-12 14:12:30 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu lọc phim - Category: (null), Country: (null), Sort: (null), Page: 1, IsNew: True 
+2025-05-12 14:12:30 | INFO | MovieWebsite.Controllers.HomeController | Áp dụng bộ lọc phim mới - Từ: 04/12/2025 14:12:30 
+2025-05-12 14:12:30 | INFO | MovieWebsite.Controllers.HomeController | Lọc phim thành công - Tổng số phim: 3, Trang: 1 
+2025-05-12 14:12:31 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu tải danh sách phim - Trang: 1 
+2025-05-12 14:12:31 | INFO | MovieWebsite.Controllers.HomeController | Tải danh sách phim thành công - Trang: 1, Tổng số phim: 21 
+2025-05-12 14:12:32 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu tải trang chủ 
+2025-05-12 14:12:32 | INFO | MovieWebsite.Controllers.HomeController | Lấy danh sách phim thành công - Tổng số: 21 
+2025-05-12 14:12:32 | INFO | MovieWebsite.Controllers.HomeController | Lấy 3 phim nổi bật thành công 
+2025-05-12 14:12:35 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu tải trang chủ 
+2025-05-12 14:12:35 | INFO | MovieWebsite.Controllers.HomeController | Lấy danh sách phim thành công - Tổng số: 21 
+2025-05-12 14:12:35 | INFO | MovieWebsite.Controllers.HomeController | Lấy 3 phim nổi bật thành công 
+2025-05-12 14:12:55 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu lọc phim - Category: (null), Country: (null), Sort: (null), Page: 1, IsNew: True 
+2025-05-12 14:12:55 | INFO | MovieWebsite.Controllers.HomeController | Áp dụng bộ lọc phim mới - Từ: 04/12/2025 14:12:55 
+2025-05-12 14:12:55 | INFO | MovieWebsite.Controllers.HomeController | Lọc phim thành công - Tổng số phim: 3, Trang: 1 
+2025-05-12 14:12:56 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu lọc phim - Category: Gia Đình, Country: (null), Sort: (null), Page: 1, IsNew: (null) 
+2025-05-12 14:12:56 | INFO | MovieWebsite.Controllers.HomeController | Áp dụng bộ lọc danh mục: Gia Đình 
+2025-05-12 14:12:56 | INFO | MovieWebsite.Controllers.HomeController | Lọc phim thành công - Tổng số phim: 1, Trang: 1 
+2025-05-12 14:12:59 | INFO | MovieWebsite.Controllers.AccountController | Người dùng đăng xuất: trankhietloi2004@gmail.com 
+2025-05-12 14:13:27 | INFO | MovieWebsite.Controllers.AccountController | Đăng ký với email: lp.n3.1110@gmail.com 
+2025-05-12 14:13:29 | INFO | MovieWebsite.Controllers.AccountController | Đăng ký với email: lp.n3.1110@gmail.com 
+2025-05-12 14:13:31 | INFO | MovieWebsite.Controllers.AccountController | Đăng ký thành công cho user: lp.n3.1110@gmail.com, Đã gửi email xác minh 
+2025-05-12 14:13:33 | INFO | MovieWebsite.Controllers.AccountController | Gửi lại email xác minh cho tài khoản: lp.n3.1110@gmail.com 
+2025-05-12 14:14:01 | INFO | MovieWebsite.Controllers.AccountController | Bắt đầu xác minh tài khoản với token: 8abedac8-69e0-414c-a3b6-1a49f062a8ad 
+2025-05-12 14:14:02 | INFO | MovieWebsite.Controllers.AccountController | Xác minh tài khoản thành công cho email: lp.n3.1110@gmail.com 
+2025-05-12 14:14:21 | INFO | MovieWebsite.Controllers.AccountController | Đăng nhập thử với email: lp.n3.1110@gmail.com 
+2025-05-12 14:14:21 | INFO | MovieWebsite.Controllers.AccountController | Đăng nhập thành công cho user: lp.n3.1110@gmail.com, Role: User 
+2025-05-12 14:14:21 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu tải trang chủ 
+2025-05-12 14:14:21 | INFO | MovieWebsite.Controllers.HomeController | Lấy danh sách phim thành công - Tổng số: 21 
+2025-05-12 14:14:21 | INFO | MovieWebsite.Controllers.HomeController | Lấy 3 phim nổi bật thành công 
+2025-05-12 14:14:26 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu lọc phim - Category: (null), Country: (null), Sort: (null), Page: 1, IsNew: True 
+2025-05-12 14:14:26 | INFO | MovieWebsite.Controllers.HomeController | Áp dụng bộ lọc phim mới - Từ: 04/12/2025 14:14:26 
+2025-05-12 14:14:26 | INFO | MovieWebsite.Controllers.HomeController | Lọc phim thành công - Tổng số phim: 3, Trang: 1 
+2025-05-12 14:14:26 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu tải danh sách phim - Trang: 1 
+2025-05-12 14:14:26 | INFO | MovieWebsite.Controllers.HomeController | Tải danh sách phim thành công - Trang: 1, Tổng số phim: 21 
+2025-05-12 14:14:27 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu tải trang chủ 
+2025-05-12 14:14:27 | INFO | MovieWebsite.Controllers.HomeController | Lấy danh sách phim thành công - Tổng số: 21 
+2025-05-12 14:14:27 | INFO | MovieWebsite.Controllers.HomeController | Lấy 3 phim nổi bật thành công 
+2025-05-12 14:14:39 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu lọc phim - Category: (null), Country: Hàn Quốc, Sort: (null), Page: 1, IsNew: (null) 
+2025-05-12 14:14:39 | INFO | MovieWebsite.Controllers.HomeController | Áp dụng bộ lọc quốc gia: Hàn Quốc 
+2025-05-12 14:14:39 | INFO | MovieWebsite.Controllers.HomeController | Lọc phim thành công - Tổng số phim: 3, Trang: 1 
+2025-05-12 14:14:40 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu lọc phim - Category: Âm Nhạc, Country: (null), Sort: (null), Page: 1, IsNew: (null) 
+2025-05-12 14:14:40 | INFO | MovieWebsite.Controllers.HomeController | Áp dụng bộ lọc danh mục: Âm Nhạc 
+2025-05-12 14:14:40 | INFO | MovieWebsite.Controllers.HomeController | Lọc phim thành công - Tổng số phim: 0, Trang: 1 
+2025-05-12 14:14:41 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu lọc phim - Category: (null), Country: (null), Sort: (null), Page: 1, IsNew: True 
+2025-05-12 14:14:41 | INFO | MovieWebsite.Controllers.HomeController | Áp dụng bộ lọc phim mới - Từ: 04/12/2025 14:14:41 
+2025-05-12 14:14:41 | INFO | MovieWebsite.Controllers.HomeController | Lọc phim thành công - Tổng số phim: 3, Trang: 1 
+2025-05-12 14:14:42 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu tải danh sách phim - Trang: 1 
+2025-05-12 14:14:42 | INFO | MovieWebsite.Controllers.HomeController | Tải danh sách phim thành công - Trang: 1, Tổng số phim: 21 
+2025-05-12 14:14:43 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu tải trang chủ 
+2025-05-12 14:14:43 | INFO | MovieWebsite.Controllers.HomeController | Lấy danh sách phim thành công - Tổng số: 21 
+2025-05-12 14:14:43 | INFO | MovieWebsite.Controllers.HomeController | Lấy 3 phim nổi bật thành công 
+2025-05-12 14:14:44 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu tải chi tiết phim - MovieId: MV002 
+2025-05-12 14:14:44 | INFO | MovieWebsite.Controllers.HomeController | Tải chi tiết phim thành công - MovieId: MV002 
+2025-05-12 14:14:46 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu xem phim - MovieId: MV002 
+2025-05-12 14:14:46 | INFO | MovieWebsite.Controllers.HomeController | Thêm lịch sử xem phim - UserId: KHEA62A30C, MovieId: MV002 
+2025-05-12 14:14:46 | INFO | MovieWebsite.Controllers.HomeController | Tải trang xem phim thành công - MovieId: MV002 
+2025-05-12 14:15:07 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu tải trang chủ 
+2025-05-12 14:15:14 | INFO | MovieWebsite.Controllers.HomeController | Lấy danh sách phim thành công - Tổng số: 21 
+2025-05-12 14:15:14 | INFO | MovieWebsite.Controllers.HomeController | Lấy 3 phim nổi bật thành công 
+2025-05-12 14:15:15 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu tải danh sách phim - Trang: 1 
+2025-05-12 14:15:15 | INFO | MovieWebsite.Controllers.HomeController | Tải danh sách phim thành công - Trang: 1, Tổng số phim: 21 
+2025-05-12 14:15:17 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu tải trang chủ 
+2025-05-12 14:15:17 | INFO | MovieWebsite.Controllers.HomeController | Lấy danh sách phim thành công - Tổng số: 21 
+2025-05-12 14:15:17 | INFO | MovieWebsite.Controllers.HomeController | Lấy 3 phim nổi bật thành công 
+2025-05-12 14:15:22 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu tải trang chủ 
+2025-05-12 14:15:22 | INFO | MovieWebsite.Controllers.HomeController | Lấy danh sách phim thành công - Tổng số: 21 
+2025-05-12 14:15:22 | INFO | MovieWebsite.Controllers.HomeController | Lấy 3 phim nổi bật thành công 
+2025-05-12 14:15:24 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu tải chi tiết phim - MovieId: MV001 
+2025-05-12 14:15:24 | INFO | MovieWebsite.Controllers.HomeController | Tải chi tiết phim thành công - MovieId: MV001 
+2025-05-12 14:15:27 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu thêm phim vào danh sách yêu thích - MovieId: MV001 
+2025-05-12 14:15:27 | INFO | MovieWebsite.Controllers.HomeController | Thêm phim vào danh sách yêu thích thành công - MovieId: MV001, UserId: KHEA62A30C 
+2025-05-12 14:15:27 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu tải chi tiết phim - MovieId: MV001 
+2025-05-12 14:15:27 | INFO | MovieWebsite.Controllers.HomeController | Tải chi tiết phim thành công - MovieId: MV001 
+2025-05-12 14:15:34 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu tải danh sách yêu thích của người dùng 
+2025-05-12 14:15:34 | INFO | MovieWebsite.Controllers.HomeController | Tải danh sách yêu thích thành công - UserId: KHEA62A30C, Tổng số: 1 
+2025-05-12 14:15:38 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu tải lịch sử xem phim của người dùng 
+2025-05-12 14:15:38 | INFO | MovieWebsite.Controllers.HomeController | Tải lịch sử xem phim thành công - UserId: KHEA62A30C, Tổng số: 1 
+2025-05-12 14:15:44 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu tải trang chủ 
+2025-05-12 14:15:44 | INFO | MovieWebsite.Controllers.HomeController | Lấy danh sách phim thành công - Tổng số: 21 
+2025-05-12 14:15:44 | INFO | MovieWebsite.Controllers.HomeController | Lấy 3 phim nổi bật thành công 
+2025-05-12 14:15:47 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu tải danh sách phim - Trang: 1 
+2025-05-12 14:15:47 | INFO | MovieWebsite.Controllers.HomeController | Tải danh sách phim thành công - Trang: 1, Tổng số phim: 21 
+2025-05-12 14:15:48 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu lọc phim - Category: (null), Country: (null), Sort: (null), Page: 1, IsNew: True 
+2025-05-12 14:15:48 | INFO | MovieWebsite.Controllers.HomeController | Áp dụng bộ lọc phim mới - Từ: 04/12/2025 14:15:48 
+2025-05-12 14:15:48 | INFO | MovieWebsite.Controllers.HomeController | Lọc phim thành công - Tổng số phim: 3, Trang: 1 
+2025-05-12 14:15:50 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu lọc phim - Category: Chiến Tranh, Country: (null), Sort: (null), Page: 1, IsNew: (null) 
+2025-05-12 14:15:50 | INFO | MovieWebsite.Controllers.HomeController | Áp dụng bộ lọc danh mục: Chiến Tranh 
+2025-05-12 14:15:50 | INFO | MovieWebsite.Controllers.HomeController | Lọc phim thành công - Tổng số phim: 1, Trang: 1 
+2025-05-12 14:15:51 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu lọc phim - Category: (null), Country: Hoa Kì, Sort: (null), Page: 1, IsNew: (null) 
+2025-05-12 14:15:51 | INFO | MovieWebsite.Controllers.HomeController | Áp dụng bộ lọc quốc gia: Hoa Kì 
+2025-05-12 14:15:51 | INFO | MovieWebsite.Controllers.HomeController | Lọc phim thành công - Tổng số phim: 3, Trang: 1 
+2025-05-12 14:16:10 | INFO | MovieWebsite.Controllers.AccountController | Thử đổi mật khẩu cho user: lp.n3.1110@gmail.com 
+2025-05-12 14:16:11 | INFO | MovieWebsite.Controllers.AccountController | Đổi mật khẩu thành công cho user: lp.n3.1110@gmail.com 
+2025-05-12 14:16:16 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu tải trang chủ 
+2025-05-12 14:16:16 | INFO | MovieWebsite.Controllers.HomeController | Lấy danh sách phim thành công - Tổng số: 21 
+2025-05-12 14:16:16 | INFO | MovieWebsite.Controllers.HomeController | Lấy 3 phim nổi bật thành công 
+2025-05-12 14:16:19 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu tải lịch sử xem phim của người dùng 
+2025-05-12 14:16:19 | INFO | MovieWebsite.Controllers.HomeController | Tải lịch sử xem phim thành công - UserId: KHEA62A30C, Tổng số: 1 
+2025-05-12 14:16:21 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu tải trang chủ 
+2025-05-12 14:16:21 | INFO | MovieWebsite.Controllers.HomeController | Lấy danh sách phim thành công - Tổng số: 21 
+2025-05-12 14:16:21 | INFO | MovieWebsite.Controllers.HomeController | Lấy 3 phim nổi bật thành công 
+2025-05-12 14:16:23 | INFO | MovieWebsite.Controllers.AccountController | Người dùng đăng xuất: lp.n3.1110@gmail.com 
+2025-05-12 14:16:25 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu tải trang chủ 
+2025-05-12 14:16:25 | INFO | MovieWebsite.Controllers.HomeController | Lấy danh sách phim thành công - Tổng số: 21 
+2025-05-12 14:16:25 | INFO | MovieWebsite.Controllers.HomeController | Lấy 3 phim nổi bật thành công 
+2025-05-12 14:16:37 | INFO | MovieWebsite.Controllers.AccountController | Bắt đầu xử lý yêu cầu khôi phục mật khẩu cho email: lp.n3.1110@gmail.com 
+2025-05-12 14:16:40 | INFO | MovieWebsite.Controllers.AccountController | Đã gửi email khôi phục mật khẩu thành công cho email: lp.n3.1110@gmail.com, Token: ae13863b-81e2-45b9-b9e7-96335b74e40a 
+2025-05-12 14:17:29 | INFO | MovieWebsite.Controllers.AccountController | Bắt đầu xử lý yêu cầu đặt lại mật khẩu với token: ae13863b-81e2-45b9-b9e7-96335b74e40a 
+2025-05-12 14:17:29 | WARN | MovieWebsite.Controllers.AccountController | Đặt lại mật khẩu thất bại - Dữ liệu không hợp lệ với token: ae13863b-81e2-45b9-b9e7-96335b74e40a 
+2025-05-12 14:17:44 | INFO | MovieWebsite.Controllers.AccountController | Bắt đầu xử lý yêu cầu đặt lại mật khẩu với token: ae13863b-81e2-45b9-b9e7-96335b74e40a 
+2025-05-12 14:17:44 | WARN | MovieWebsite.Controllers.AccountController | Đặt lại mật khẩu thất bại - Dữ liệu không hợp lệ với token: ae13863b-81e2-45b9-b9e7-96335b74e40a 
+2025-05-12 14:17:54 | INFO | MovieWebsite.Controllers.AccountController | Bắt đầu xử lý yêu cầu đặt lại mật khẩu với token: ae13863b-81e2-45b9-b9e7-96335b74e40a 
+2025-05-12 14:17:54 | INFO | MovieWebsite.Controllers.AccountController | Đặt lại mật khẩu thành công cho email: lp.n3.1110@gmail.com 
+2025-05-12 14:18:04 | INFO | MovieWebsite.Controllers.AccountController | Đăng nhập thử với email: lp.n3.1110@gmail.com 
+2025-05-12 14:18:04 | INFO | MovieWebsite.Controllers.AccountController | Đăng nhập thành công cho user: lp.n3.1110@gmail.com, Role: User 
+2025-05-12 14:18:04 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu tải trang chủ 
+2025-05-12 14:18:04 | INFO | MovieWebsite.Controllers.HomeController | Lấy danh sách phim thành công - Tổng số: 21 
+2025-05-12 14:18:04 | INFO | MovieWebsite.Controllers.HomeController | Lấy 3 phim nổi bật thành công 
+2025-05-12 14:18:11 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu tải trang chủ 
+2025-05-12 14:18:11 | INFO | MovieWebsite.Controllers.HomeController | Lấy danh sách phim thành công - Tổng số: 21 
+2025-05-12 14:18:11 | INFO | MovieWebsite.Controllers.HomeController | Lấy 3 phim nổi bật thành công 
+2025-05-12 14:18:13 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu tải trang chủ 
+2025-05-12 14:18:13 | INFO | MovieWebsite.Controllers.HomeController | Lấy danh sách phim thành công - Tổng số: 21 
+2025-05-12 14:18:13 | INFO | MovieWebsite.Controllers.HomeController | Lấy 3 phim nổi bật thành công 
+2025-05-12 14:18:14 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu tải danh sách phim - Trang: 1 
+2025-05-12 14:18:14 | INFO | MovieWebsite.Controllers.HomeController | Tải danh sách phim thành công - Trang: 1, Tổng số phim: 21 
+2025-05-12 14:18:15 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu lọc phim - Category: (null), Country: (null), Sort: (null), Page: 1, IsNew: True 
+2025-05-12 14:18:15 | INFO | MovieWebsite.Controllers.HomeController | Áp dụng bộ lọc phim mới - Từ: 04/12/2025 14:18:15 
+2025-05-12 14:18:15 | INFO | MovieWebsite.Controllers.HomeController | Lọc phim thành công - Tổng số phim: 3, Trang: 1 
+2025-05-12 14:18:18 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu tìm kiếm phim - Query: one, Trang: 1 
+2025-05-12 14:18:18 | INFO | MovieWebsite.Controllers.HomeController | Tìm kiếm phim thành công - Query: one, Tổng số phim: 2 
+2025-05-12 14:18:22 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu tìm kiếm phim - Query: luffy, Trang: 1 
+2025-05-12 14:18:22 | INFO | MovieWebsite.Controllers.HomeController | Tìm kiếm phim thành công - Query: luffy, Tổng số phim: 1 
+2025-05-12 14:18:25 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu tải trang chủ 
+2025-05-12 14:18:25 | INFO | MovieWebsite.Controllers.HomeController | Lấy danh sách phim thành công - Tổng số: 21 
+2025-05-12 14:18:25 | INFO | MovieWebsite.Controllers.HomeController | Lấy 3 phim nổi bật thành công 
+2025-05-12 14:18:30 | INFO | MovieWebsite.Controllers.AccountController | Người dùng đăng xuất: lp.n3.1110@gmail.com 
+2025-05-12 14:19:03 | INFO | MovieWebsite.Controllers.AccountController | Đăng nhập thử với email: admin@example.com 
+2025-05-12 14:19:04 | INFO | MovieWebsite.Controllers.AccountController | Đăng nhập thành công cho user: admin@example.com, Role: admin 
+2025-05-12 14:19:04 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu tải dữ liệu tổng quan cho trang admin 
+2025-05-12 14:19:04 | INFO | MovieWebsite.Controllers.AdminController | Tải dữ liệu tổng quan thành công 
+2025-05-12 14:19:05 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu tải danh sách phim - SearchTerm: (null), SortOrder: (null) 
+2025-05-12 14:19:05 | INFO | MovieWebsite.Controllers.AdminController | Sắp xếp danh sách phim theo thời gian tạo mới nhất 
+2025-05-12 14:19:06 | INFO | MovieWebsite.Controllers.AdminController | Tải danh sách phim thành công - Tổng số: 21 
+2025-05-12 14:19:07 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu tải dữ liệu tổng quan cho trang admin 
+2025-05-12 14:19:07 | INFO | MovieWebsite.Controllers.AdminController | Tải dữ liệu tổng quan thành công 
+2025-05-12 14:19:07 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu tải danh sách phim - SearchTerm: (null), SortOrder: (null) 
+2025-05-12 14:19:07 | INFO | MovieWebsite.Controllers.AdminController | Sắp xếp danh sách phim theo thời gian tạo mới nhất 
+2025-05-12 14:19:08 | INFO | MovieWebsite.Controllers.AdminController | Tải danh sách phim thành công - Tổng số: 21 
+2025-05-12 14:19:08 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu tải danh sách người dùng - SearchTerm: (null), SortOrder: (null) 
+2025-05-12 14:19:08 | INFO | MovieWebsite.Controllers.AdminController | Sắp xếp danh sách người dùng theo thời gian tạo mới nhất 
+2025-05-12 14:19:08 | INFO | MovieWebsite.Controllers.AdminController | Tải danh sách người dùng thành công - Tổng số: 3 
+2025-05-12 14:19:09 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu tải danh sách bình luận - SortOrder: newest, SearchTerm:  
+2025-05-12 14:19:09 | INFO | MovieWebsite.Controllers.AdminController | Sắp xếp danh sách bình luận theo thời gian mới nhất 
+2025-05-12 14:19:09 | INFO | MovieWebsite.Controllers.AdminController | Tải danh sách bình luận thành công - Tổng số: 0 
+2025-05-12 14:19:10 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu tải danh sách người dùng - SearchTerm: (null), SortOrder: (null) 
+2025-05-12 14:19:10 | INFO | MovieWebsite.Controllers.AdminController | Sắp xếp danh sách người dùng theo thời gian tạo mới nhất 
+2025-05-12 14:19:10 | INFO | MovieWebsite.Controllers.AdminController | Tải danh sách người dùng thành công - Tổng số: 3 
+2025-05-12 14:19:13 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu tải danh sách bình luận - SortOrder: newest, SearchTerm:  
+2025-05-12 14:19:13 | INFO | MovieWebsite.Controllers.AdminController | Sắp xếp danh sách bình luận theo thời gian mới nhất 
+2025-05-12 14:19:13 | INFO | MovieWebsite.Controllers.AdminController | Tải danh sách bình luận thành công - Tổng số: 0 
+2025-05-12 14:19:15 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu tải danh sách đánh giá - SortOrder: newest, SearchTerm:  
+2025-05-12 14:19:15 | INFO | MovieWebsite.Controllers.AdminController | Sắp xếp danh sách đánh giá theo thời gian mới nhất 
+2025-05-12 14:19:15 | INFO | MovieWebsite.Controllers.AdminController | Tải danh sách đánh giá thành công - Tổng số: 0 
+2025-05-12 14:19:16 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu tải danh sách phim - SearchTerm: (null), SortOrder: (null) 
+2025-05-12 14:19:16 | INFO | MovieWebsite.Controllers.AdminController | Sắp xếp danh sách phim theo thời gian tạo mới nhất 
+2025-05-12 14:19:16 | INFO | MovieWebsite.Controllers.AdminController | Tải danh sách phim thành công - Tổng số: 21 
+2025-05-12 14:21:20 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu tải trang chủ 
+2025-05-12 14:21:22 | INFO | MovieWebsite.Controllers.HomeController | Lấy danh sách phim thành công - Tổng số: 21 
+2025-05-12 14:21:22 | INFO | MovieWebsite.Controllers.HomeController | Lấy 3 phim nổi bật thành công 
+2025-05-12 14:21:26 | INFO | MovieWebsite.Controllers.AccountController | Người dùng đăng xuất: admin@example.com 
+2025-05-12 14:21:42 | INFO | MovieWebsite.Controllers.AccountController | Bắt đầu xử lý yêu cầu khôi phục mật khẩu cho email: lp.n3.1110@gmail.com 
+2025-05-12 14:21:45 | INFO | MovieWebsite.Controllers.AccountController | Đã gửi email khôi phục mật khẩu thành công cho email: lp.n3.1110@gmail.com, Token: f80b162b-6cd8-4773-9470-78b9dbab8193 
+2025-05-12 14:22:13 | INFO | MovieWebsite.Controllers.AccountController | Bắt đầu xử lý yêu cầu đặt lại mật khẩu với token: f80b162b-6cd8-4773-9470-78b9dbab8193 
+2025-05-12 14:22:13 | INFO | MovieWebsite.Controllers.AccountController | Đặt lại mật khẩu thành công cho email: lp.n3.1110@gmail.com 
+2025-05-12 14:22:22 | INFO | MovieWebsite.Controllers.AccountController | Đăng nhập thử với email: lp.n3.1110@gmail.com 
+2025-05-12 14:22:22 | INFO | MovieWebsite.Controllers.AccountController | Đăng nhập thành công cho user: lp.n3.1110@gmail.com, Role: User 
+2025-05-12 14:22:22 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu tải trang chủ 
+2025-05-12 14:22:22 | INFO | MovieWebsite.Controllers.HomeController | Lấy danh sách phim thành công - Tổng số: 21 
+2025-05-12 14:22:22 | INFO | MovieWebsite.Controllers.HomeController | Lấy 3 phim nổi bật thành công 
+2025-05-12 14:44:41 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu tải trang chủ 
+2025-05-12 14:45:02 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu tải trang chủ 
+2025-05-12 14:45:30 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu tải trang chủ 
+2025-05-12 14:45:34 | INFO | MovieWebsite.Controllers.HomeController | Lấy danh sách phim thành công - Tổng số: 21 
+2025-05-12 14:45:34 | INFO | MovieWebsite.Controllers.HomeController | Lấy 3 phim nổi bật thành công 
+2025-05-12 14:45:45 | INFO | MovieWebsite.Controllers.AccountController | Người dùng đăng xuất: liem8000@gmail.com 
+2025-05-12 14:46:27 | INFO | MovieWebsite.Controllers.AccountController | Đăng nhập thử với email: admin@example.com 
+2025-05-12 14:46:27 | INFO | MovieWebsite.Controllers.AccountController | Đăng nhập thành công cho user: admin@example.com, Role: admin 
+2025-05-12 14:46:28 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu tải dữ liệu tổng quan cho trang admin 
+2025-05-12 14:46:28 | INFO | MovieWebsite.Controllers.AdminController | Tải dữ liệu tổng quan thành công 
+2025-05-12 14:46:35 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu tải dữ liệu tổng quan cho trang admin 
+2025-05-12 14:46:36 | INFO | MovieWebsite.Controllers.AdminController | Tải dữ liệu tổng quan thành công 
+2025-05-12 14:46:38 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu tải danh sách phim - SearchTerm: (null), SortOrder: (null) 
+2025-05-12 14:46:38 | INFO | MovieWebsite.Controllers.AdminController | Sắp xếp danh sách phim theo thời gian tạo mới nhất 
+2025-05-12 14:46:38 | INFO | MovieWebsite.Controllers.AdminController | Tải danh sách phim thành công - Tổng số: 21 
+2025-05-12 14:46:49 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu tải danh sách người dùng - SearchTerm: (null), SortOrder: (null) 
+2025-05-12 14:46:49 | INFO | MovieWebsite.Controllers.AdminController | Sắp xếp danh sách người dùng theo thời gian tạo mới nhất 
+2025-05-12 14:46:53 | INFO | MovieWebsite.Controllers.AdminController | Tải danh sách người dùng thành công - Tổng số: 2 
+2025-05-12 14:46:57 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu tải danh sách bình luận - SortOrder: newest, SearchTerm:  
+2025-05-12 14:46:57 | INFO | MovieWebsite.Controllers.AdminController | Sắp xếp danh sách bình luận theo thời gian mới nhất 
+2025-05-12 14:46:57 | INFO | MovieWebsite.Controllers.AdminController | Tải danh sách bình luận thành công - Tổng số: 1 
+2025-05-12 14:47:00 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu tải danh sách đánh giá - SortOrder: newest, SearchTerm:  
+2025-05-12 14:47:00 | INFO | MovieWebsite.Controllers.AdminController | Sắp xếp danh sách đánh giá theo thời gian mới nhất 
+2025-05-12 14:47:00 | INFO | MovieWebsite.Controllers.AdminController | Tải danh sách đánh giá thành công - Tổng số: 1 
+2025-05-12 14:47:02 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu tải trang chủ 
+2025-05-12 14:47:02 | INFO | MovieWebsite.Controllers.HomeController | Lấy danh sách phim thành công - Tổng số: 21 
+2025-05-12 14:47:02 | INFO | MovieWebsite.Controllers.HomeController | Lấy 3 phim nổi bật thành công 
+2025-05-12 14:47:05 | INFO | MovieWebsite.Controllers.AccountController | Người dùng đăng xuất: admin@example.com 
+2025-05-12 14:47:19 | INFO | MovieWebsite.Controllers.AccountController | Đăng nhập thử với email: admin@example.com 
+2025-05-12 14:47:19 | INFO | MovieWebsite.Controllers.AccountController | Đăng nhập thành công cho user: admin@example.com, Role: admin 
+2025-05-12 14:47:19 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu tải dữ liệu tổng quan cho trang admin 
+2025-05-12 14:47:24 | INFO | MovieWebsite.Controllers.AdminController | Tải dữ liệu tổng quan thành công 
+2025-05-12 14:47:28 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu tải danh sách phim - SearchTerm: (null), SortOrder: (null) 
+2025-05-12 14:47:28 | INFO | MovieWebsite.Controllers.AdminController | Sắp xếp danh sách phim theo thời gian tạo mới nhất 
+2025-05-12 14:47:28 | INFO | MovieWebsite.Controllers.AdminController | Tải danh sách phim thành công - Tổng số: 21 
+2025-05-12 14:47:30 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu tải trang chỉnh sửa phim - MovieId: MV021 
+2025-05-12 14:47:30 | INFO | MovieWebsite.Controllers.AdminController | Tải trang chỉnh sửa phim thành công - MovieId: MV021 
+2025-05-12 14:47:43 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu chỉnh sửa phim - MovieId: MV021, Title: Onepiece tap 419 
+2025-05-12 14:47:43 | WARN | MovieWebsite.Controllers.AdminController | Chỉnh sửa phim thất bại - Dữ liệu không hợp lệ - MovieId: MV021 
+2025-05-12 14:48:03 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu chỉnh sửa phim - MovieId: MV021, Title: Onepiece tap 419 
+2025-05-12 14:48:03 | INFO | MovieWebsite.Controllers.AdminController | Tải lên thumbnail mới thành công - MovieId: MV021, FilePath: C:\Users\liem8\Downloads\.NET_Final\wwwroot\uploads\thumbnails\5c5c2536-1c9b-4be0-af94-20556c796738.jpg 
+2025-05-12 14:48:03 | INFO | MovieWebsite.Controllers.AdminController | Chỉnh sửa phim thành công - MovieId: MV021 
+2025-05-12 14:48:03 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu tải danh sách phim - SearchTerm: (null), SortOrder: (null) 
+2025-05-12 14:48:03 | INFO | MovieWebsite.Controllers.AdminController | Sắp xếp danh sách phim theo thời gian tạo mới nhất 
+2025-05-12 14:48:03 | INFO | MovieWebsite.Controllers.AdminController | Tải danh sách phim thành công - Tổng số: 21 
+2025-05-12 14:48:06 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu tải trang chỉnh sửa phim - MovieId: MV021 
+2025-05-12 14:48:06 | INFO | MovieWebsite.Controllers.AdminController | Tải trang chỉnh sửa phim thành công - MovieId: MV021 
+2025-05-12 15:02:47 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu tải danh sách phim - SearchTerm: (null), SortOrder: (null) 
+2025-05-12 15:02:47 | INFO | MovieWebsite.Controllers.AdminController | Sắp xếp danh sách phim theo thời gian tạo mới nhất 
+2025-05-12 15:03:31 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu tải danh sách phim - SearchTerm: (null), SortOrder: (null) 
+2025-05-12 15:03:31 | INFO | MovieWebsite.Controllers.AdminController | Sắp xếp danh sách phim theo thời gian tạo mới nhất 
+2025-05-12 15:03:31 | INFO | MovieWebsite.Controllers.AdminController | Tải danh sách phim thành công - Tổng số: 21 
+2025-05-12 15:03:34 | INFO | MovieWebsite.Controllers.AccountController | Người dùng đăng xuất: admin@example.com 
+2025-05-12 15:03:52 | INFO | MovieWebsite.Controllers.AccountController | Đăng nhập thử với email: liem8000@gmail.com 
+2025-05-12 15:03:52 | INFO | MovieWebsite.Controllers.AccountController | Đăng nhập thành công cho user: liem8000@gmail.com, Role: User 
+2025-05-12 15:03:52 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu tải trang chủ 
+2025-05-12 15:03:52 | INFO | MovieWebsite.Controllers.HomeController | Lấy danh sách phim thành công - Tổng số: 21 
+2025-05-12 15:03:52 | INFO | MovieWebsite.Controllers.HomeController | Lấy 3 phim nổi bật thành công 
+2025-05-12 15:04:45 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu tải trang chủ 
+2025-05-12 15:04:45 | INFO | MovieWebsite.Controllers.HomeController | Lấy danh sách phim thành công - Tổng số: 21 
+2025-05-12 15:04:45 | INFO | MovieWebsite.Controllers.HomeController | Lấy 3 phim nổi bật thành công 
+2025-05-12 15:04:46 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu tải trang chủ 
+2025-05-12 15:04:46 | INFO | MovieWebsite.Controllers.HomeController | Lấy danh sách phim thành công - Tổng số: 21 
+2025-05-12 15:04:46 | INFO | MovieWebsite.Controllers.HomeController | Lấy 3 phim nổi bật thành công 
+2025-05-12 15:07:35 | INFO | MovieWebsite.Controllers.AccountController | Thử đổi mật khẩu cho user: liem8000@gmail.com 
+2025-05-12 15:07:35 | WARN | MovieWebsite.Controllers.AccountController | Đổi mật khẩu thất bại cho user: liem8000@gmail.com - Yêu cầu mật khẩu không đạt 
+2025-05-12 15:07:52 | INFO | MovieWebsite.Controllers.AccountController | Thử đổi mật khẩu cho user: liem8000@gmail.com 
+2025-05-12 15:07:52 | WARN | MovieWebsite.Controllers.AccountController | Mô hình đổi mật khẩu không hợp lệ cho user: liem8000@gmail.com 
+2025-05-12 15:08:05 | INFO | MovieWebsite.Controllers.AccountController | Thử đổi mật khẩu cho user: liem8000@gmail.com 
+2025-05-12 15:08:05 | INFO | MovieWebsite.Controllers.AccountController | Đổi mật khẩu thành công cho user: liem8000@gmail.com 
+2025-05-12 15:13:30 | INFO | MovieWebsite.Controllers.AccountController | Người dùng đăng xuất: liem8000@gmail.com 
+2025-05-12 15:14:18 | INFO | MovieWebsite.Controllers.AccountController | Đăng nhập thử với email: admin@example.com 
+2025-05-12 15:14:18 | INFO | MovieWebsite.Controllers.AccountController | Đăng nhập thành công cho user: admin@example.com, Role: admin 
+2025-05-12 15:14:18 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu tải dữ liệu tổng quan cho trang admin 
+2025-05-12 15:14:18 | INFO | MovieWebsite.Controllers.AdminController | Tải dữ liệu tổng quan thành công 
+2025-05-12 15:14:51 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu tải danh sách người dùng - SearchTerm: (null), SortOrder: (null) 
+2025-05-12 15:14:51 | INFO | MovieWebsite.Controllers.AdminController | Sắp xếp danh sách người dùng theo thời gian tạo mới nhất 
+2025-05-12 15:14:51 | INFO | MovieWebsite.Controllers.AdminController | Tải danh sách người dùng thành công - Tổng số: 2 
+2025-05-12 15:14:58 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu tải danh sách bình luận - SortOrder: newest, SearchTerm:  
+2025-05-12 15:14:58 | INFO | MovieWebsite.Controllers.AdminController | Sắp xếp danh sách bình luận theo thời gian mới nhất 
+2025-05-12 15:14:58 | INFO | MovieWebsite.Controllers.AdminController | Tải danh sách bình luận thành công - Tổng số: 1 
+2025-05-12 15:15:02 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu tải danh sách đánh giá - SortOrder: newest, SearchTerm:  
+2025-05-12 15:15:02 | INFO | MovieWebsite.Controllers.AdminController | Sắp xếp danh sách đánh giá theo thời gian mới nhất 
+2025-05-12 15:15:02 | INFO | MovieWebsite.Controllers.AdminController | Tải danh sách đánh giá thành công - Tổng số: 1 
+2025-05-12 15:15:03 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu tải danh sách bình luận - SortOrder: newest, SearchTerm:  
+2025-05-12 15:15:03 | INFO | MovieWebsite.Controllers.AdminController | Sắp xếp danh sách bình luận theo thời gian mới nhất 
+2025-05-12 15:15:03 | INFO | MovieWebsite.Controllers.AdminController | Tải danh sách bình luận thành công - Tổng số: 1 
+2025-05-12 15:15:35 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu tải danh sách phim - SearchTerm: (null), SortOrder: (null) 
+2025-05-12 15:15:35 | INFO | MovieWebsite.Controllers.AdminController | Sắp xếp danh sách phim theo thời gian tạo mới nhất 
+2025-05-12 15:15:35 | INFO | MovieWebsite.Controllers.AdminController | Tải danh sách phim thành công - Tổng số: 21 
+2025-05-12 15:16:11 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu tải dữ liệu tổng quan cho trang admin 
+2025-05-12 15:16:11 | INFO | MovieWebsite.Controllers.AdminController | Tải dữ liệu tổng quan thành công 
+2025-05-12 15:16:36 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu tải danh sách phim - SearchTerm: (null), SortOrder: (null) 
+2025-05-12 15:16:36 | INFO | MovieWebsite.Controllers.AdminController | Sắp xếp danh sách phim theo thời gian tạo mới nhất 
+2025-05-12 15:16:36 | INFO | MovieWebsite.Controllers.AdminController | Tải danh sách phim thành công - Tổng số: 21 
+2025-05-12 15:16:46 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu tải danh sách người dùng - SearchTerm: (null), SortOrder: (null) 
+2025-05-12 15:16:46 | INFO | MovieWebsite.Controllers.AdminController | Sắp xếp danh sách người dùng theo thời gian tạo mới nhất 
+2025-05-12 15:16:46 | INFO | MovieWebsite.Controllers.AdminController | Tải danh sách người dùng thành công - Tổng số: 2 
+2025-05-12 15:18:44 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu tải danh sách phim - SearchTerm: (null), SortOrder: (null) 
+2025-05-12 15:18:44 | INFO | MovieWebsite.Controllers.AdminController | Sắp xếp danh sách phim theo thời gian tạo mới nhất 
+2025-05-12 15:18:44 | INFO | MovieWebsite.Controllers.AdminController | Tải danh sách phim thành công - Tổng số: 21 
+2025-05-12 15:18:44 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu tải trang thêm phim mới 
+2025-05-12 15:18:44 | INFO | MovieWebsite.Controllers.AdminController | Tải danh sách danh mục thành công cho trang thêm phim 
+2025-05-12 15:19:19 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu tải danh sách phim - SearchTerm: (null), SortOrder: (null) 
+2025-05-12 15:19:19 | INFO | MovieWebsite.Controllers.AdminController | Sắp xếp danh sách phim theo thời gian tạo mới nhất 
+2025-05-12 15:19:19 | INFO | MovieWebsite.Controllers.AdminController | Tải danh sách phim thành công - Tổng số: 21 
+2025-05-12 15:19:22 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu tải trang chỉnh sửa phim - MovieId: MV021 
+2025-05-12 15:19:22 | INFO | MovieWebsite.Controllers.AdminController | Tải trang chỉnh sửa phim thành công - MovieId: MV021 
+2025-05-12 15:19:57 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu tải danh sách phim - SearchTerm: (null), SortOrder: (null) 
+2025-05-12 15:19:57 | INFO | MovieWebsite.Controllers.AdminController | Sắp xếp danh sách phim theo thời gian tạo mới nhất 
+2025-05-12 15:19:57 | INFO | MovieWebsite.Controllers.AdminController | Tải danh sách phim thành công - Tổng số: 21 
+2025-05-12 15:20:55 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu tải danh sách người dùng - SearchTerm: (null), SortOrder: (null) 
+2025-05-12 15:20:55 | INFO | MovieWebsite.Controllers.AdminController | Sắp xếp danh sách người dùng theo thời gian tạo mới nhất 
+2025-05-12 15:20:55 | INFO | MovieWebsite.Controllers.AdminController | Tải danh sách người dùng thành công - Tổng số: 2 
+2025-05-12 15:21:40 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu tải trang chỉnh sửa người dùng - UserId: KHC89E035A 
+2025-05-12 15:21:40 | INFO | MovieWebsite.Controllers.AdminController | Tải trang chỉnh sửa người dùng thành công - UserId: KHC89E035A 
+2025-05-12 15:22:15 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu tải danh sách người dùng - SearchTerm: (null), SortOrder: (null) 
+2025-05-12 15:22:15 | INFO | MovieWebsite.Controllers.AdminController | Sắp xếp danh sách người dùng theo thời gian tạo mới nhất 
+2025-05-12 15:22:15 | INFO | MovieWebsite.Controllers.AdminController | Tải danh sách người dùng thành công - Tổng số: 2 
+2025-05-12 15:22:52 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu tải danh sách bình luận - SortOrder: newest, SearchTerm:  
+2025-05-12 15:22:52 | INFO | MovieWebsite.Controllers.AdminController | Sắp xếp danh sách bình luận theo thời gian mới nhất 
+2025-05-12 15:22:52 | INFO | MovieWebsite.Controllers.AdminController | Tải danh sách bình luận thành công - Tổng số: 1 
+2025-05-12 15:24:34 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu tải danh sách đánh giá - SortOrder: newest, SearchTerm:  
+2025-05-12 15:24:34 | INFO | MovieWebsite.Controllers.AdminController | Sắp xếp danh sách đánh giá theo thời gian mới nhất 
+2025-05-12 15:24:34 | INFO | MovieWebsite.Controllers.AdminController | Tải danh sách đánh giá thành công - Tổng số: 1 
+2025-05-12 15:26:08 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu tải trang chủ 
+2025-05-12 15:26:08 | INFO | MovieWebsite.Controllers.HomeController | Lấy danh sách phim thành công - Tổng số: 21 
+2025-05-12 15:26:08 | INFO | MovieWebsite.Controllers.HomeController | Lấy 3 phim nổi bật thành công 
+2025-05-12 15:26:16 | INFO | MovieWebsite.Controllers.AccountController | Người dùng đăng xuất: admin@example.com 
+2025-05-12 15:26:22 | INFO | MovieWebsite.Controllers.AccountController | Đăng nhập thử với email: liem8000@gmail.com 
+2025-05-12 15:26:22 | WARN | MovieWebsite.Controllers.AccountController | Đăng nhập thất bại cho email: liem8000@gmail.com - Email hoặc mật khẩu không đúng 
+2025-05-12 15:26:27 | INFO | MovieWebsite.Controllers.AccountController | Đăng nhập thử với email: liem8000@gmail.com 
+2025-05-12 15:26:27 | INFO | MovieWebsite.Controllers.AccountController | Đăng nhập thành công cho user: liem8000@gmail.com, Role: User 
+2025-05-12 15:26:27 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu tải trang chủ 
+2025-05-12 15:26:27 | INFO | MovieWebsite.Controllers.HomeController | Lấy danh sách phim thành công - Tổng số: 21 
+2025-05-12 15:26:27 | INFO | MovieWebsite.Controllers.HomeController | Lấy 3 phim nổi bật thành công 
+2025-05-12 15:28:43 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu tải danh sách phim - Trang: 1 
+2025-05-12 15:28:43 | INFO | MovieWebsite.Controllers.HomeController | Tải danh sách phim thành công - Trang: 1, Tổng số phim: 21 
+2025-05-12 15:28:45 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu lọc phim - Category: (null), Country: (null), Sort: (null), Page: 1, IsNew: True 
+2025-05-12 15:28:45 | INFO | MovieWebsite.Controllers.HomeController | Áp dụng bộ lọc phim mới - Từ: 04/12/2025 15:28:45 
+2025-05-12 15:28:45 | INFO | MovieWebsite.Controllers.HomeController | Lọc phim thành công - Tổng số phim: 3, Trang: 1 
+2025-05-12 15:29:26 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu tải trang chủ 
+2025-05-12 15:29:26 | INFO | MovieWebsite.Controllers.HomeController | Lấy danh sách phim thành công - Tổng số: 21 
+2025-05-12 15:29:26 | INFO | MovieWebsite.Controllers.HomeController | Lấy 3 phim nổi bật thành công 
+2025-05-12 15:29:26 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu tải danh sách phim - Trang: 1 
+2025-05-12 15:29:26 | INFO | MovieWebsite.Controllers.HomeController | Tải danh sách phim thành công - Trang: 1, Tổng số phim: 21 
+2025-05-12 15:31:16 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu lọc phim - Category: (null), Country: (null), Sort: (null), Page: 1, IsNew: True 
+2025-05-12 15:31:16 | INFO | MovieWebsite.Controllers.HomeController | Áp dụng bộ lọc phim mới - Từ: 04/12/2025 15:31:16 
+2025-05-12 15:31:16 | INFO | MovieWebsite.Controllers.HomeController | Lọc phim thành công - Tổng số phim: 3, Trang: 1 
+2025-05-12 15:31:42 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu lọc phim - Category: Âm Nhạc, Country: (null), Sort: (null), Page: 1, IsNew: (null) 
+2025-05-12 15:31:42 | INFO | MovieWebsite.Controllers.HomeController | Áp dụng bộ lọc danh mục: Âm Nhạc 
+2025-05-12 15:31:42 | INFO | MovieWebsite.Controllers.HomeController | Lọc phim thành công - Tổng số phim: 0, Trang: 1 
+2025-05-12 15:31:44 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu lọc phim - Category: Cổ Trang, Country: (null), Sort: (null), Page: 1, IsNew: (null) 
+2025-05-12 15:31:44 | INFO | MovieWebsite.Controllers.HomeController | Áp dụng bộ lọc danh mục: Cổ Trang 
+2025-05-12 15:31:45 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu lọc phim - Category: Chiến Tranh, Country: (null), Sort: (null), Page: 1, IsNew: (null) 
+2025-05-12 15:31:45 | INFO | MovieWebsite.Controllers.HomeController | Áp dụng bộ lọc danh mục: Chiến Tranh 
+2025-05-12 15:31:45 | INFO | MovieWebsite.Controllers.HomeController | Lọc phim thành công - Tổng số phim: 1, Trang: 1 
+2025-05-12 15:31:45 | INFO | MovieWebsite.Controllers.HomeController | Lọc phim thành công - Tổng số phim: 0, Trang: 1 
+2025-05-12 15:31:46 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu lọc phim - Category: Hành Động, Country: (null), Sort: (null), Page: 1, IsNew: (null) 
+2025-05-12 15:31:46 | INFO | MovieWebsite.Controllers.HomeController | Áp dụng bộ lọc danh mục: Hành Động 
+2025-05-12 15:31:46 | INFO | MovieWebsite.Controllers.HomeController | Lọc phim thành công - Tổng số phim: 7, Trang: 1 
+2025-05-12 15:32:16 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu lọc phim - Category: (null), Country: Hàn Quốc, Sort: (null), Page: 1, IsNew: (null) 
+2025-05-12 15:32:16 | INFO | MovieWebsite.Controllers.HomeController | Áp dụng bộ lọc quốc gia: Hàn Quốc 
+2025-05-12 15:32:20 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu lọc phim - Category: (null), Country: Trung Quốc, Sort: (null), Page: 1, IsNew: (null) 
+2025-05-12 15:32:20 | INFO | MovieWebsite.Controllers.HomeController | Áp dụng bộ lọc quốc gia: Trung Quốc 
+2025-05-12 15:32:22 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu lọc phim - Category: (null), Country: Nhật Bản, Sort: (null), Page: 1, IsNew: (null) 
+2025-05-12 15:32:22 | INFO | MovieWebsite.Controllers.HomeController | Áp dụng bộ lọc quốc gia: Nhật Bản 
+2025-05-12 15:32:23 | INFO | MovieWebsite.Controllers.HomeController | Lọc phim thành công - Tổng số phim: 3, Trang: 1 
+2025-05-12 15:32:23 | INFO | MovieWebsite.Controllers.HomeController | Lọc phim thành công - Tổng số phim: 3, Trang: 1 
+2025-05-12 15:32:23 | INFO | MovieWebsite.Controllers.HomeController | Lọc phim thành công - Tổng số phim: 2, Trang: 1 
+2025-05-12 15:33:09 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu tìm kiếm phim - Query: a, Trang: 1 
+2025-05-12 15:33:09 | INFO | MovieWebsite.Controllers.HomeController | Tìm kiếm phim thành công - Query: a, Tổng số phim: 21 
+2025-05-12 15:33:15 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu tìm kiếm phim - Query: do, Trang: 1 
+2025-05-12 15:33:15 | INFO | MovieWebsite.Controllers.HomeController | Tìm kiếm phim thành công - Query: do, Tổng số phim: 3 
+2025-05-12 15:33:45 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu tải chi tiết phim - MovieId: MV016 
+2025-05-12 15:33:45 | INFO | MovieWebsite.Controllers.HomeController | Tải chi tiết phim thành công - MovieId: MV016 
+2025-05-12 15:36:12 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu thêm phim vào danh sách yêu thích - MovieId: MV016 
+2025-05-12 15:36:12 | INFO | MovieWebsite.Controllers.HomeController | Thêm phim vào danh sách yêu thích thành công - MovieId: MV016, UserId: KHC89E035A 
+2025-05-12 15:36:12 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu tải chi tiết phim - MovieId: MV016 
+2025-05-12 15:36:12 | INFO | MovieWebsite.Controllers.HomeController | Tải chi tiết phim thành công - MovieId: MV016 
+2025-05-12 15:36:41 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu xem phim - MovieId: MV016 
+2025-05-12 15:36:41 | INFO | MovieWebsite.Controllers.HomeController | Thêm lịch sử xem phim - UserId: KHC89E035A, MovieId: MV016 
+2025-05-12 15:36:41 | INFO | MovieWebsite.Controllers.HomeController | Tải trang xem phim thành công - MovieId: MV016 
+2025-05-12 15:36:45 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu xem phim - MovieId: MV016 
+2025-05-12 15:36:45 | INFO | MovieWebsite.Controllers.HomeController | Cập nhật lịch sử xem phim - UserId: KHC89E035A, MovieId: MV016 
+2025-05-12 15:36:45 | INFO | MovieWebsite.Controllers.HomeController | Tải trang xem phim thành công - MovieId: MV016 
+2025-05-12 15:39:07 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu thêm bình luận - MovieId: MV016 
+2025-05-12 15:39:07 | INFO | MovieWebsite.Controllers.HomeController | Thêm bình luận thành công - MovieId: MV016, UserId: KHC89E035A 
+2025-05-12 15:39:07 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu xem phim - MovieId: MV016 
+2025-05-12 15:39:07 | INFO | MovieWebsite.Controllers.HomeController | Cập nhật lịch sử xem phim - UserId: KHC89E035A, MovieId: MV016 
+2025-05-12 15:39:07 | INFO | MovieWebsite.Controllers.HomeController | Tải trang xem phim thành công - MovieId: MV016 
+2025-05-12 15:41:26 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu tải danh sách yêu thích của người dùng 
+2025-05-12 15:41:26 | INFO | MovieWebsite.Controllers.HomeController | Tải danh sách yêu thích thành công - UserId: KHC89E035A, Tổng số: 4 
+2025-05-12 15:41:51 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu tải lịch sử xem phim của người dùng 
+2025-05-12 15:41:51 | INFO | MovieWebsite.Controllers.HomeController | Tải lịch sử xem phim thành công - UserId: KHC89E035A, Tổng số: 8 

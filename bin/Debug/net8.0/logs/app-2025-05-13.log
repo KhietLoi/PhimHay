@@ -1,0 +1,264 @@
+2025-05-13 22:24:10 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu tải trang chủ 
+2025-05-13 22:24:11 | INFO | MovieWebsite.Controllers.HomeController | Lấy danh sách phim thành công - Tổng số: 21 
+2025-05-13 22:24:11 | INFO | MovieWebsite.Controllers.HomeController | Lấy 3 phim nổi bật thành công 
+2025-05-13 22:24:20 | INFO | MovieWebsite.Controllers.AccountController | Đăng nhập thử với email: liem8000@gmail.com 
+2025-05-13 22:24:21 | INFO | MovieWebsite.Controllers.AccountController | Đăng nhập thành công cho user: liem8000@gmail.com, Role: User 
+2025-05-13 22:24:21 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu tải trang chủ 
+2025-05-13 22:24:21 | INFO | MovieWebsite.Controllers.HomeController | Lấy danh sách phim thành công - Tổng số: 21 
+2025-05-13 22:24:21 | INFO | MovieWebsite.Controllers.HomeController | Lấy 3 phim nổi bật thành công 
+2025-05-13 22:24:23 | INFO | MovieWebsite.Controllers.AccountController | Người dùng đăng xuất: liem8000@gmail.com 
+2025-05-13 22:24:59 | INFO | MovieWebsite.Controllers.AccountController | Đăng nhập thử với email: admin@example.com 
+2025-05-13 22:25:00 | INFO | MovieWebsite.Controllers.AccountController | Đăng nhập thành công cho user: admin@example.com, Role: admin 
+2025-05-13 22:25:00 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu tải dữ liệu tổng quan cho trang admin 
+2025-05-13 22:25:00 | INFO | MovieWebsite.Controllers.AdminController | Tải dữ liệu tổng quan thành công 
+2025-05-13 22:25:01 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu tải danh sách phim - SearchTerm: (null), SortOrder: (null) 
+2025-05-13 22:25:01 | INFO | MovieWebsite.Controllers.AdminController | Sắp xếp danh sách phim theo thời gian tạo mới nhất 
+2025-05-13 22:25:01 | INFO | MovieWebsite.Controllers.AdminController | Tải danh sách phim thành công - Tổng số: 21 
+2025-05-13 22:25:03 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu tải trang chỉnh sửa phim - MovieId: MV021 
+2025-05-13 22:25:03 | INFO | MovieWebsite.Controllers.AdminController | Tải trang chỉnh sửa phim thành công - MovieId: MV021 
+2025-05-13 22:25:10 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu chỉnh sửa phim - MovieId: MV021, Title: Onepiece tap 419 
+2025-05-13 22:25:10 | WARN | MovieWebsite.Controllers.AdminController | Chỉnh sửa phim thất bại - Dữ liệu không hợp lệ - MovieId: MV021 
+2025-05-13 22:25:16 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu chỉnh sửa phim - MovieId: MV021, Title: Onepiece tap 419 
+2025-05-13 22:25:16 | WARN | MovieWebsite.Controllers.AdminController | Chỉnh sửa phim thất bại - Dữ liệu không hợp lệ - MovieId: MV021 
+2025-05-13 22:25:20 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu tải danh sách phim - SearchTerm: (null), SortOrder: (null) 
+2025-05-13 22:25:20 | INFO | MovieWebsite.Controllers.AdminController | Sắp xếp danh sách phim theo thời gian tạo mới nhất 
+2025-05-13 22:25:20 | INFO | MovieWebsite.Controllers.AdminController | Tải danh sách phim thành công - Tổng số: 21 
+2025-05-13 22:25:26 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu tải trang chỉnh sửa phim - MovieId: MV021 
+2025-05-13 22:25:26 | INFO | MovieWebsite.Controllers.AdminController | Tải trang chỉnh sửa phim thành công - MovieId: MV021 
+2025-05-13 22:25:52 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu chỉnh sửa phim - MovieId: MV021, Title: Onepiece tap 419 
+2025-05-13 22:25:52 | WARN | MovieWebsite.Controllers.AdminController | Chỉnh sửa phim thất bại - Dữ liệu không hợp lệ - MovieId: MV021 
+2025-05-13 22:25:54 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu chỉnh sửa phim - MovieId: MV021, Title: Onepiece tap 419 
+2025-05-13 22:25:54 | WARN | MovieWebsite.Controllers.AdminController | Chỉnh sửa phim thất bại - Dữ liệu không hợp lệ - MovieId: MV021 
+2025-05-13 22:25:56 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu tải danh sách phim - SearchTerm: (null), SortOrder: (null) 
+2025-05-13 22:25:56 | INFO | MovieWebsite.Controllers.AdminController | Sắp xếp danh sách phim theo thời gian tạo mới nhất 
+2025-05-13 22:25:56 | INFO | MovieWebsite.Controllers.AdminController | Tải danh sách phim thành công - Tổng số: 21 
+2025-05-13 22:25:57 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu tải trang chỉnh sửa phim - MovieId: MV021 
+2025-05-13 22:25:57 | INFO | MovieWebsite.Controllers.AdminController | Tải trang chỉnh sửa phim thành công - MovieId: MV021 
+2025-05-13 22:27:28 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu chỉnh sửa phim - MovieId: MV021, Title: Onepiece tap 419 
+2025-05-13 22:27:28 | INFO | MovieWebsite.Controllers.AdminController | Tải lên thumbnail mới thành công - MovieId: MV021, FilePath: C:\Users\liem8\Downloads\.NET_Final\wwwroot\uploads\thumbnails\613402ac-0861-41fd-bf3c-e40ff4c70414.jpeg 
+2025-05-13 22:27:28 | INFO | MovieWebsite.Controllers.AdminController | Chỉnh sửa phim thành công - MovieId: MV021 
+2025-05-13 22:27:28 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu tải danh sách phim - SearchTerm: (null), SortOrder: (null) 
+2025-05-13 22:27:28 | INFO | MovieWebsite.Controllers.AdminController | Sắp xếp danh sách phim theo thời gian tạo mới nhất 
+2025-05-13 22:27:28 | INFO | MovieWebsite.Controllers.AdminController | Tải danh sách phim thành công - Tổng số: 21 
+2025-05-13 22:27:36 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu tải trang chỉnh sửa phim - MovieId: MV021 
+2025-05-13 22:27:36 | INFO | MovieWebsite.Controllers.AdminController | Tải trang chỉnh sửa phim thành công - MovieId: MV021 
+2025-05-13 22:32:56 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu tải trang chủ 
+2025-05-13 22:32:57 | INFO | MovieWebsite.Controllers.HomeController | Lấy danh sách phim thành công - Tổng số: 21 
+2025-05-13 22:32:57 | INFO | MovieWebsite.Controllers.HomeController | Lấy 3 phim nổi bật thành công 
+2025-05-13 22:33:08 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu tải trang chủ 
+2025-05-13 22:33:09 | INFO | MovieWebsite.Controllers.HomeController | Lấy danh sách phim thành công - Tổng số: 21 
+2025-05-13 22:33:09 | INFO | MovieWebsite.Controllers.HomeController | Lấy 3 phim nổi bật thành công 
+2025-05-13 22:33:13 | INFO | MovieWebsite.Controllers.AccountController | Người dùng đăng xuất: admin@example.com 
+2025-05-13 22:33:27 | INFO | MovieWebsite.Controllers.AccountController | Đăng nhập thử với email: admin@example.com 
+2025-05-13 22:34:07 | INFO | MovieWebsite.Controllers.AccountController | Đăng nhập thử với email: admin@example.com 
+2025-05-13 22:34:13 | INFO | MovieWebsite.Controllers.AccountController | Đăng nhập thành công cho user: admin@example.com, Role: admin 
+2025-05-13 22:34:13 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu tải dữ liệu tổng quan cho trang admin 
+2025-05-13 22:34:17 | INFO | MovieWebsite.Controllers.AdminController | Tải dữ liệu tổng quan thành công 
+2025-05-13 22:34:25 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu tải danh sách phim - SearchTerm: (null), SortOrder: (null) 
+2025-05-13 22:34:25 | INFO | MovieWebsite.Controllers.AdminController | Sắp xếp danh sách phim theo thời gian tạo mới nhất 
+2025-05-13 22:34:32 | INFO | MovieWebsite.Controllers.AdminController | Tải danh sách phim thành công - Tổng số: 21 
+2025-05-13 22:34:40 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu tải trang chỉnh sửa phim - MovieId: MV021 
+2025-05-13 22:35:22 | INFO | MovieWebsite.Controllers.AdminController | Tải trang chỉnh sửa phim thành công - MovieId: MV021 
+2025-05-13 22:35:35 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu chỉnh sửa phim - MovieId: MV021, Title: Onepiece tap 419 
+2025-05-13 22:35:35 | WARN | MovieWebsite.Controllers.AdminController | Chỉnh sửa phim thất bại - Dữ liệu không hợp lệ - MovieId: MV021 
+2025-05-13 22:35:43 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu chỉnh sửa phim - MovieId: MV021, Title: Onepiece tap 419 
+2025-05-13 22:35:43 | WARN | MovieWebsite.Controllers.AdminController | Chỉnh sửa phim thất bại - Dữ liệu không hợp lệ - MovieId: MV021 
+2025-05-13 22:35:49 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu chỉnh sửa phim - MovieId: MV021, Title: Onepiece tap 419 
+2025-05-13 22:35:49 | WARN | MovieWebsite.Controllers.AdminController | Chỉnh sửa phim thất bại - Dữ liệu không hợp lệ - MovieId: MV021 
+2025-05-13 22:35:55 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu tải danh sách phim - SearchTerm: (null), SortOrder: (null) 
+2025-05-13 22:35:55 | INFO | MovieWebsite.Controllers.AdminController | Sắp xếp danh sách phim theo thời gian tạo mới nhất 
+2025-05-13 22:35:55 | INFO | MovieWebsite.Controllers.AdminController | Tải danh sách phim thành công - Tổng số: 21 
+2025-05-13 22:35:56 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu tải trang chỉnh sửa phim - MovieId: MV021 
+2025-05-13 22:35:56 | INFO | MovieWebsite.Controllers.AdminController | Tải trang chỉnh sửa phim thành công - MovieId: MV021 
+2025-05-13 22:35:57 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu tải danh sách phim - SearchTerm: (null), SortOrder: (null) 
+2025-05-13 22:35:57 | INFO | MovieWebsite.Controllers.AdminController | Sắp xếp danh sách phim theo thời gian tạo mới nhất 
+2025-05-13 22:35:57 | INFO | MovieWebsite.Controllers.AdminController | Tải danh sách phim thành công - Tổng số: 21 
+2025-05-13 22:36:48 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu tải danh sách phim - SearchTerm: (null), SortOrder: (null) 
+2025-05-13 22:36:48 | INFO | MovieWebsite.Controllers.AdminController | Sắp xếp danh sách phim theo thời gian tạo mới nhất 
+2025-05-13 22:36:48 | INFO | MovieWebsite.Controllers.AdminController | Tải danh sách phim thành công - Tổng số: 21 
+2025-05-13 22:37:03 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu tải trang chủ 
+2025-05-13 22:37:13 | INFO | MovieWebsite.Controllers.HomeController | Lấy danh sách phim thành công - Tổng số: 21 
+2025-05-13 22:37:13 | INFO | MovieWebsite.Controllers.HomeController | Lấy 3 phim nổi bật thành công 
+2025-05-13 22:37:15 | INFO | MovieWebsite.Controllers.AccountController | Người dùng đăng xuất: admin@example.com 
+2025-05-13 22:37:34 | INFO | MovieWebsite.Controllers.AccountController | Đăng nhập thử với email: admin@example.com 
+2025-05-13 22:37:35 | INFO | MovieWebsite.Controllers.AccountController | Đăng nhập thành công cho user: admin@example.com, Role: admin 
+2025-05-13 22:37:35 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu tải dữ liệu tổng quan cho trang admin 
+2025-05-13 22:37:35 | INFO | MovieWebsite.Controllers.AdminController | Tải dữ liệu tổng quan thành công 
+2025-05-13 22:37:36 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu tải danh sách phim - SearchTerm: (null), SortOrder: (null) 
+2025-05-13 22:37:36 | INFO | MovieWebsite.Controllers.AdminController | Sắp xếp danh sách phim theo thời gian tạo mới nhất 
+2025-05-13 22:37:36 | INFO | MovieWebsite.Controllers.AdminController | Tải danh sách phim thành công - Tổng số: 21 
+2025-05-13 22:37:37 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu tải trang chỉnh sửa phim - MovieId: MV021 
+2025-05-13 22:37:37 | INFO | MovieWebsite.Controllers.AdminController | Tải trang chỉnh sửa phim thành công - MovieId: MV021 
+2025-05-13 22:37:41 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu chỉnh sửa phim - MovieId: MV021, Title: Onepiece tap 419 
+2025-05-13 22:37:41 | WARN | MovieWebsite.Controllers.AdminController | Chỉnh sửa phim thất bại - Dữ liệu không hợp lệ - MovieId: MV021 
+2025-05-13 22:37:53 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu chỉnh sửa phim - MovieId: MV021, Title: Onepiece tap 419 
+2025-05-13 22:37:53 | INFO | MovieWebsite.Controllers.AdminController | Tải lên thumbnail mới thành công - MovieId: MV021, FilePath: C:\Users\liem8\Downloads\.NET_Final\wwwroot\uploads\thumbnails\aa3dfd09-cb71-4dc8-a50f-87dbe0363685.jpeg 
+2025-05-13 22:37:53 | INFO | MovieWebsite.Controllers.AdminController | Chỉnh sửa phim thành công - MovieId: MV021 
+2025-05-13 22:37:53 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu tải danh sách phim - SearchTerm: (null), SortOrder: (null) 
+2025-05-13 22:37:53 | INFO | MovieWebsite.Controllers.AdminController | Sắp xếp danh sách phim theo thời gian tạo mới nhất 
+2025-05-13 22:37:53 | INFO | MovieWebsite.Controllers.AdminController | Tải danh sách phim thành công - Tổng số: 21 
+2025-05-13 22:37:54 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu tải trang chỉnh sửa phim - MovieId: MV021 
+2025-05-13 22:37:55 | INFO | MovieWebsite.Controllers.AdminController | Tải trang chỉnh sửa phim thành công - MovieId: MV021 
+2025-05-13 22:44:21 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu tải trang chỉnh sửa phim - MovieId: MV021 
+2025-05-13 22:44:30 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu tải trang chủ 
+2025-05-13 22:44:45 | INFO | MovieWebsite.Controllers.HomeController | Lấy danh sách phim thành công - Tổng số: 21 
+2025-05-13 22:44:45 | INFO | MovieWebsite.Controllers.HomeController | Lấy 3 phim nổi bật thành công 
+2025-05-13 22:45:02 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu tải dữ liệu tổng quan cho trang admin 
+2025-05-13 22:45:11 | INFO | MovieWebsite.Controllers.AdminController | Tải dữ liệu tổng quan thành công 
+2025-05-13 22:45:13 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu tải danh sách phim - SearchTerm: (null), SortOrder: (null) 
+2025-05-13 22:45:13 | INFO | MovieWebsite.Controllers.AdminController | Sắp xếp danh sách phim theo thời gian tạo mới nhất 
+2025-05-13 22:45:16 | INFO | MovieWebsite.Controllers.AdminController | Tải danh sách phim thành công - Tổng số: 21 
+2025-05-13 22:45:21 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu tải trang chỉnh sửa phim - MovieId: MV021 
+2025-05-13 22:45:22 | INFO | MovieWebsite.Controllers.AdminController | Tải trang chỉnh sửa phim thành công - MovieId: MV021 
+2025-05-13 22:45:35 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu chỉnh sửa phim - MovieId: MV021, Title: Onepiece tap 419 
+2025-05-13 22:45:35 | WARN | MovieWebsite.Controllers.AdminController | Chỉnh sửa phim thất bại - Dữ liệu không hợp lệ - MovieId: MV021 
+2025-05-13 22:47:25 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu chỉnh sửa phim - MovieId: MV021, Title: Onepiece tap 419 
+2025-05-13 22:47:25 | WARN | MovieWebsite.Controllers.AdminController | Chỉnh sửa phim thất bại - Dữ liệu không hợp lệ - MovieId: MV021 
+2025-05-13 22:47:43 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu chỉnh sửa phim - MovieId: MV021, Title: Onepiece tap 500 
+2025-05-13 22:47:43 | WARN | MovieWebsite.Controllers.AdminController | Chỉnh sửa phim thất bại - Dữ liệu không hợp lệ - MovieId: MV021 
+2025-05-13 22:47:59 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu chỉnh sửa phim - MovieId: MV021, Title: Onepiece tap 500 
+2025-05-13 22:47:59 | INFO | MovieWebsite.Controllers.AdminController | Tải lên thumbnail mới thành công - MovieId: MV021, FilePath: C:\Users\liem8\Downloads\.NET_Final\wwwroot\uploads\thumbnails\b80666a9-9092-430f-a2d4-35dabf7763e2.jpeg 
+2025-05-13 22:47:59 | INFO | MovieWebsite.Controllers.AdminController | Chỉnh sửa phim thành công - MovieId: MV021 
+2025-05-13 22:47:59 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu tải danh sách phim - SearchTerm: (null), SortOrder: (null) 
+2025-05-13 22:47:59 | INFO | MovieWebsite.Controllers.AdminController | Sắp xếp danh sách phim theo thời gian tạo mới nhất 
+2025-05-13 22:48:00 | INFO | MovieWebsite.Controllers.AdminController | Tải danh sách phim thành công - Tổng số: 21 
+2025-05-13 22:51:37 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu tải danh sách phim - SearchTerm: (null), SortOrder: (null) 
+2025-05-13 22:51:37 | INFO | MovieWebsite.Controllers.AdminController | Sắp xếp danh sách phim theo thời gian tạo mới nhất 
+2025-05-13 22:51:37 | INFO | MovieWebsite.Controllers.AdminController | Tải danh sách phim thành công - Tổng số: 21 
+2025-05-13 22:51:47 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu tải trang chủ 
+2025-05-13 22:51:48 | INFO | MovieWebsite.Controllers.HomeController | Lấy danh sách phim thành công - Tổng số: 21 
+2025-05-13 22:51:48 | INFO | MovieWebsite.Controllers.HomeController | Lấy 3 phim nổi bật thành công 
+2025-05-13 22:51:49 | INFO | MovieWebsite.Controllers.AccountController | Người dùng đăng xuất: admin@example.com 
+2025-05-13 22:51:52 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu tải trang chủ 
+2025-05-13 22:51:52 | INFO | MovieWebsite.Controllers.HomeController | Lấy danh sách phim thành công - Tổng số: 21 
+2025-05-13 22:51:52 | INFO | MovieWebsite.Controllers.HomeController | Lấy 3 phim nổi bật thành công 
+2025-05-13 22:51:55 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu tải dữ liệu tổng quan cho trang admin 
+2025-05-13 22:51:55 | INFO | MovieWebsite.Controllers.AdminController | Tải dữ liệu tổng quan thành công 
+2025-05-13 22:51:55 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu tải dữ liệu tổng quan cho trang admin 
+2025-05-13 22:51:55 | INFO | MovieWebsite.Controllers.AdminController | Tải dữ liệu tổng quan thành công 
+2025-05-13 22:51:56 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu tải danh sách phim - SearchTerm: (null), SortOrder: (null) 
+2025-05-13 22:51:56 | INFO | MovieWebsite.Controllers.AdminController | Sắp xếp danh sách phim theo thời gian tạo mới nhất 
+2025-05-13 22:51:57 | INFO | MovieWebsite.Controllers.AdminController | Tải danh sách phim thành công - Tổng số: 21 
+2025-05-13 22:51:57 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu tải danh sách phim - SearchTerm: (null), SortOrder: (null) 
+2025-05-13 22:51:57 | INFO | MovieWebsite.Controllers.AdminController | Sắp xếp danh sách phim theo thời gian tạo mới nhất 
+2025-05-13 22:51:57 | INFO | MovieWebsite.Controllers.AdminController | Tải danh sách phim thành công - Tổng số: 21 
+2025-05-13 22:51:58 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu tải trang chỉnh sửa phim - MovieId: MV021 
+2025-05-13 22:51:58 | INFO | MovieWebsite.Controllers.AdminController | Tải trang chỉnh sửa phim thành công - MovieId: MV021 
+2025-05-13 22:51:58 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu tải trang chỉnh sửa phim - MovieId: MV021 
+2025-05-13 22:51:58 | INFO | MovieWebsite.Controllers.AdminController | Tải trang chỉnh sửa phim thành công - MovieId: MV021 
+2025-05-13 22:52:02 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu chỉnh sửa phim - MovieId: MV021, Title: Onepiece tap 500 
+2025-05-13 22:52:02 | INFO | MovieWebsite.Controllers.AdminController | URL trong 
+2025-05-13 22:52:02 | INFO | MovieWebsite.Controllers.AdminController | Chỉnh sửa phim thành công - MovieId: MV021 
+2025-05-13 22:52:02 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu tải danh sách phim - SearchTerm: (null), SortOrder: (null) 
+2025-05-13 22:52:02 | INFO | MovieWebsite.Controllers.AdminController | Sắp xếp danh sách phim theo thời gian tạo mới nhất 
+2025-05-13 22:52:02 | INFO | MovieWebsite.Controllers.AdminController | Tải danh sách phim thành công - Tổng số: 21 
+2025-05-13 22:52:02 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu tải danh sách phim - SearchTerm: (null), SortOrder: (null) 
+2025-05-13 22:52:02 | INFO | MovieWebsite.Controllers.AdminController | Sắp xếp danh sách phim theo thời gian tạo mới nhất 
+2025-05-13 22:52:02 | INFO | MovieWebsite.Controllers.AdminController | Tải danh sách phim thành công - Tổng số: 21 
+2025-05-13 22:52:04 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu tải trang chỉnh sửa phim - MovieId: MV021 
+2025-05-13 22:52:04 | INFO | MovieWebsite.Controllers.AdminController | Tải trang chỉnh sửa phim thành công - MovieId: MV021 
+2025-05-13 22:52:04 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu tải trang chỉnh sửa phim - MovieId: MV021 
+2025-05-13 22:52:04 | INFO | MovieWebsite.Controllers.AdminController | Tải trang chỉnh sửa phim thành công - MovieId: MV021 
+2025-05-13 22:53:20 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu tải danh sách phim - SearchTerm: (null), SortOrder: (null) 
+2025-05-13 22:53:20 | INFO | MovieWebsite.Controllers.AdminController | Sắp xếp danh sách phim theo thời gian tạo mới nhất 
+2025-05-13 22:53:46 | INFO | MovieWebsite.Controllers.AdminController | Tải danh sách phim thành công - Tổng số: 21 
+2025-05-13 22:53:46 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu tải danh sách phim - SearchTerm: (null), SortOrder: (null) 
+2025-05-13 22:53:46 | INFO | MovieWebsite.Controllers.AdminController | Sắp xếp danh sách phim theo thời gian tạo mới nhất 
+2025-05-13 22:53:46 | INFO | MovieWebsite.Controllers.AdminController | Tải danh sách phim thành công - Tổng số: 21 
+2025-05-13 22:53:49 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu tải trang chỉnh sửa phim - MovieId: MV021 
+2025-05-13 22:54:07 | INFO | MovieWebsite.Controllers.AdminController | Tải trang chỉnh sửa phim thành công - MovieId: MV021 
+2025-05-13 22:54:07 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu tải trang chỉnh sửa phim - MovieId: MV021 
+2025-05-13 22:54:10 | INFO | MovieWebsite.Controllers.AdminController | Tải trang chỉnh sửa phim thành công - MovieId: MV021 
+2025-05-13 22:54:20 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu chỉnh sửa phim - MovieId: MV021, Title: Onepiece tap 500 
+2025-05-13 22:54:21 | INFO | MovieWebsite.Controllers.AdminController | URL trong 
+2025-05-13 22:54:21 | INFO | MovieWebsite.Controllers.AdminController | Chỉnh sửa phim thành công - MovieId: MV021 
+2025-05-13 22:54:21 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu tải danh sách phim - SearchTerm: (null), SortOrder: (null) 
+2025-05-13 22:54:21 | INFO | MovieWebsite.Controllers.AdminController | Sắp xếp danh sách phim theo thời gian tạo mới nhất 
+2025-05-13 22:54:21 | INFO | MovieWebsite.Controllers.AdminController | Tải danh sách phim thành công - Tổng số: 21 
+2025-05-13 22:54:21 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu tải danh sách phim - SearchTerm: (null), SortOrder: (null) 
+2025-05-13 22:54:21 | INFO | MovieWebsite.Controllers.AdminController | Sắp xếp danh sách phim theo thời gian tạo mới nhất 
+2025-05-13 22:54:21 | INFO | MovieWebsite.Controllers.AdminController | Tải danh sách phim thành công - Tổng số: 21 
+2025-05-13 22:54:25 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu tải trang chỉnh sửa phim - MovieId: MV021 
+2025-05-13 22:54:25 | INFO | MovieWebsite.Controllers.AdminController | Tải trang chỉnh sửa phim thành công - MovieId: MV021 
+2025-05-13 22:54:25 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu tải trang chỉnh sửa phim - MovieId: MV021 
+2025-05-13 22:54:25 | INFO | MovieWebsite.Controllers.AdminController | Tải trang chỉnh sửa phim thành công - MovieId: MV021 
+2025-05-13 22:54:31 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu chỉnh sửa phim - MovieId: MV021, Title: Onepiece tap 55555 
+2025-05-13 22:54:31 | INFO | MovieWebsite.Controllers.AdminController | URL trong 
+2025-05-13 22:54:31 | INFO | MovieWebsite.Controllers.AdminController | Chỉnh sửa phim thành công - MovieId: MV021 
+2025-05-13 22:54:31 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu tải danh sách phim - SearchTerm: (null), SortOrder: (null) 
+2025-05-13 22:54:31 | INFO | MovieWebsite.Controllers.AdminController | Sắp xếp danh sách phim theo thời gian tạo mới nhất 
+2025-05-13 22:54:31 | INFO | MovieWebsite.Controllers.AdminController | Tải danh sách phim thành công - Tổng số: 21 
+2025-05-13 22:54:31 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu tải danh sách phim - SearchTerm: (null), SortOrder: (null) 
+2025-05-13 22:54:31 | INFO | MovieWebsite.Controllers.AdminController | Sắp xếp danh sách phim theo thời gian tạo mới nhất 
+2025-05-13 22:54:31 | INFO | MovieWebsite.Controllers.AdminController | Tải danh sách phim thành công - Tổng số: 21 
+2025-05-13 22:54:42 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu tải trang chỉnh sửa phim - MovieId: MV021 
+2025-05-13 22:54:42 | INFO | MovieWebsite.Controllers.AdminController | Tải trang chỉnh sửa phim thành công - MovieId: MV021 
+2025-05-13 22:54:42 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu tải trang chỉnh sửa phim - MovieId: MV021 
+2025-05-13 22:54:42 | INFO | MovieWebsite.Controllers.AdminController | Tải trang chỉnh sửa phim thành công - MovieId: MV021 
+2025-05-13 22:55:00 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu chỉnh sửa phim - MovieId: MV021, Title: Onepiece tap 55555 
+2025-05-13 22:55:00 | INFO | MovieWebsite.Controllers.AdminController | URL trong 
+2025-05-13 22:55:00 | INFO | MovieWebsite.Controllers.AdminController | Chỉnh sửa phim thành công - MovieId: MV021 
+2025-05-13 22:55:00 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu tải danh sách phim - SearchTerm: (null), SortOrder: (null) 
+2025-05-13 22:55:00 | INFO | MovieWebsite.Controllers.AdminController | Sắp xếp danh sách phim theo thời gian tạo mới nhất 
+2025-05-13 22:55:02 | INFO | MovieWebsite.Controllers.AdminController | Tải danh sách phim thành công - Tổng số: 21 
+2025-05-13 22:55:02 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu tải danh sách phim - SearchTerm: (null), SortOrder: (null) 
+2025-05-13 22:55:02 | INFO | MovieWebsite.Controllers.AdminController | Sắp xếp danh sách phim theo thời gian tạo mới nhất 
+2025-05-13 22:55:07 | INFO | MovieWebsite.Controllers.AdminController | Tải danh sách phim thành công - Tổng số: 21 
+2025-05-13 22:55:09 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu tải trang chủ 
+2025-05-13 22:55:09 | INFO | MovieWebsite.Controllers.HomeController | Lấy danh sách phim thành công - Tổng số: 21 
+2025-05-13 22:55:09 | INFO | MovieWebsite.Controllers.HomeController | Lấy 3 phim nổi bật thành công 
+2025-05-13 22:55:24 | INFO | MovieWebsite.Controllers.AccountController | Đăng nhập thử với email: liem8000@gmail.com 
+2025-05-13 22:55:24 | WARN | MovieWebsite.Controllers.AccountController | Đăng nhập thất bại cho email: liem8000@gmail.com - Email hoặc mật khẩu không đúng 
+2025-05-13 22:55:30 | INFO | MovieWebsite.Controllers.AccountController | Đăng nhập thử với email: liem8000@gmail.com 
+2025-05-13 22:55:30 | INFO | MovieWebsite.Controllers.AccountController | Đăng nhập thành công cho user: liem8000@gmail.com, Role: User 
+2025-05-13 22:55:30 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu tải trang chủ 
+2025-05-13 22:55:30 | INFO | MovieWebsite.Controllers.HomeController | Lấy danh sách phim thành công - Tổng số: 21 
+2025-05-13 22:55:30 | INFO | MovieWebsite.Controllers.HomeController | Lấy 3 phim nổi bật thành công 
+2025-05-13 22:55:34 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu lọc phim - Category: (null), Country: Japan, Sort: (null), Page: 1, IsNew: (null) 
+2025-05-13 22:55:34 | INFO | MovieWebsite.Controllers.HomeController | Áp dụng bộ lọc quốc gia: Japan 
+2025-05-13 22:55:34 | INFO | MovieWebsite.Controllers.HomeController | Lọc phim thành công - Tổng số phim: 1, Trang: 1 
+2025-05-13 22:55:36 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu tải chi tiết phim - MovieId: MV021 
+2025-05-13 22:55:36 | INFO | MovieWebsite.Controllers.HomeController | Tải chi tiết phim thành công - MovieId: MV021 
+2025-05-13 22:55:37 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu xem phim - MovieId: MV021 
+2025-05-13 22:55:38 | INFO | MovieWebsite.Controllers.HomeController | Cập nhật lịch sử xem phim - UserId: KHC89E035A, MovieId: MV021 
+2025-05-13 22:55:38 | INFO | MovieWebsite.Controllers.HomeController | Tải trang xem phim thành công - MovieId: MV021 
+2025-05-13 22:56:48 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu xem phim - MovieId: MV021 
+2025-05-13 22:56:48 | INFO | MovieWebsite.Controllers.HomeController | Cập nhật lịch sử xem phim - UserId: KHC89E035A, MovieId: MV021 
+2025-05-13 22:56:48 | INFO | MovieWebsite.Controllers.HomeController | Tải trang xem phim thành công - MovieId: MV021 
+2025-05-13 22:57:06 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu tải trang chủ 
+2025-05-13 22:57:07 | INFO | MovieWebsite.Controllers.HomeController | Lấy danh sách phim thành công - Tổng số: 21 
+2025-05-13 22:57:07 | INFO | MovieWebsite.Controllers.HomeController | Lấy 3 phim nổi bật thành công 
+2025-05-13 22:57:10 | INFO | MovieWebsite.Controllers.AccountController | Người dùng đăng xuất: liem8000@gmail.com 
+2025-05-13 22:57:25 | INFO | MovieWebsite.Controllers.AccountController | Đăng nhập thử với email: admin@example.com 
+2025-05-13 22:57:26 | WARN | MovieWebsite.Controllers.AccountController | Đăng nhập thất bại cho email: admin@example.com - Email hoặc mật khẩu không đúng 
+2025-05-13 22:57:46 | INFO | MovieWebsite.Controllers.AccountController | Đăng nhập thử với email: admin@example.com 
+2025-05-13 22:57:47 | INFO | MovieWebsite.Controllers.AccountController | Đăng nhập thành công cho user: admin@example.com, Role: admin 
+2025-05-13 22:57:47 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu tải dữ liệu tổng quan cho trang admin 
+2025-05-13 22:57:47 | INFO | MovieWebsite.Controllers.AdminController | Tải dữ liệu tổng quan thành công 
+2025-05-13 22:57:55 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu tải danh sách đánh giá - SortOrder: newest, SearchTerm:  
+2025-05-13 22:57:55 | INFO | MovieWebsite.Controllers.AdminController | Sắp xếp danh sách đánh giá theo thời gian mới nhất 
+2025-05-13 22:57:55 | INFO | MovieWebsite.Controllers.AdminController | Tải danh sách đánh giá thành công - Tổng số: 1 
+2025-05-13 22:57:55 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu tải danh sách phim - SearchTerm: (null), SortOrder: (null) 
+2025-05-13 22:57:55 | INFO | MovieWebsite.Controllers.AdminController | Sắp xếp danh sách phim theo thời gian tạo mới nhất 
+2025-05-13 22:57:56 | INFO | MovieWebsite.Controllers.AdminController | Tải danh sách phim thành công - Tổng số: 21 
+2025-05-13 22:57:56 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu tải danh sách phim - SearchTerm: (null), SortOrder: (null) 
+2025-05-13 22:57:56 | INFO | MovieWebsite.Controllers.AdminController | Sắp xếp danh sách phim theo thời gian tạo mới nhất 
+2025-05-13 22:57:56 | INFO | MovieWebsite.Controllers.AdminController | Tải danh sách phim thành công - Tổng số: 21 
+2025-05-13 22:57:58 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu tải danh sách người dùng - SearchTerm: (null), SortOrder: (null) 
+2025-05-13 22:57:58 | INFO | MovieWebsite.Controllers.AdminController | Sắp xếp danh sách người dùng theo thời gian tạo mới nhất 
+2025-05-13 22:57:58 | INFO | MovieWebsite.Controllers.AdminController | Tải danh sách người dùng thành công - Tổng số: 2 
+2025-05-13 22:58:00 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu tải trang chỉnh sửa người dùng - UserId: KHC89E035A 
+2025-05-13 22:58:00 | INFO | MovieWebsite.Controllers.AdminController | Tải trang chỉnh sửa người dùng thành công - UserId: KHC89E035A 
+2025-05-13 22:58:04 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu chỉnh sửa người dùng - UserId: KHC89E035A, Username: Liêm 
+2025-05-13 22:58:04 | INFO | MovieWebsite.Controllers.AdminController | Chỉnh sửa người dùng thành công - UserId: KHC89E035A 
+2025-05-13 22:58:04 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu tải danh sách người dùng - SearchTerm: (null), SortOrder: (null) 
+2025-05-13 22:58:04 | INFO | MovieWebsite.Controllers.AdminController | Sắp xếp danh sách người dùng theo thời gian tạo mới nhất 
+2025-05-13 22:58:04 | INFO | MovieWebsite.Controllers.AdminController | Tải danh sách người dùng thành công - Tổng số: 2 
+2025-05-13 22:58:06 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu tải trang chỉnh sửa người dùng - UserId: U001 
+2025-05-13 22:58:06 | INFO | MovieWebsite.Controllers.AdminController | Tải trang chỉnh sửa người dùng thành công - UserId: U001 
+2025-05-13 22:58:14 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu tải danh sách người dùng - SearchTerm: (null), SortOrder: (null) 
+2025-05-13 22:58:14 | INFO | MovieWebsite.Controllers.AdminController | Sắp xếp danh sách người dùng theo thời gian tạo mới nhất 
+2025-05-13 22:58:14 | INFO | MovieWebsite.Controllers.AdminController | Tải danh sách người dùng thành công - Tổng số: 2 
+2025-05-13 23:05:43 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu tải danh sách người dùng - SearchTerm: (null), SortOrder: (null) 
+2025-05-13 23:05:43 | INFO | MovieWebsite.Controllers.AdminController | Sắp xếp danh sách người dùng theo thời gian tạo mới nhất 
+2025-05-13 23:05:43 | INFO | MovieWebsite.Controllers.AdminController | Tải danh sách người dùng thành công - Tổng số: 2 

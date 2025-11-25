@@ -1,0 +1,187 @@
+﻿@using MovieWebsite.Models
+@model List<RatingAdminViewModel>
+@{
+    ViewData["Title"] = "Quản lý đánh giá";
+    ViewData["ActivePage"] = "Ratings";
+    Layout = "_AdminLayout";
+    var sortOrder = ViewData["SortOrder"] as string ?? "newest";
+    var searchTerm = ViewData["SearchTerm"] as string ?? "";
+    int totalRatings = Model?.Count ?? 0;
+}
+
+<!-- Content Header -->
+<div class="content-header">
+    <div>
+        <h1 class="content-title">Danh sách đánh giá</h1>
+        <span class="badge bg-primary">Số lượng: @totalRatings</span>
+    </div>
+    <div class="content-filters">
+        <div class="dropdown">
+            <button class="btn btn-outline-secondary dropdown-toggle" type="button" id="sortDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                Sắp xếp: @(sortOrder == "oldest" ? "Cũ nhất" : sortOrder == "movie" ? "A-Z theo phim" : sortOrder == "user" ? "A-Z theo người dùng" : sortOrder == "rating" ? "Đánh giá (Cao đến thấp)" : "Mới nhất")
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="sortDropdown">
+                <li><a class="dropdown-item sort-option" href="#" data-sort="newest">Mới nhất</a></li>
+                <li><a class="dropdown-item sort-option" href="#" data-sort="oldest">Cũ nhất</a></li>
+                <li><a class="dropdown-item sort-option" href="#" data-sort="movie">A-Z Theo phim</a></li>
+                <li><a class="dropdown-item sort-option" href="#" data-sort="user">A-Z Theo người dùng</a></li>
+                <li><a class="dropdown-item sort-option" href="#" data-sort="rating">Đánh giá (Cao đến thấp)</a></li>
+            </ul>
+        </div>
+        <form id="searchForm" method="get" asp-controller="Admin" asp-action="Ratings" class="d-flex">
+            <input type="hidden" id="sortOrderInput" name="sortOrder" value="@sortOrder" />
+            <div class="input-group">
+                <input type="text" class="form-control" id="searchRatings" name="searchTerm" placeholder="Tìm kiếm theo người dùng hoặc phim..."
+                       value="@searchTerm" aria-label="Search">
+                <button class="btn btn-outline-primary" type="submit">
+                    <i class="bi bi-search"></i>
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+        @TempData["SuccessMessage"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+}
+
+<!-- Ratings Table -->
+<div class="table-responsive">
+    <table class="table table-hover align-middle">
+        <thead class="table-light">
+            <tr>
+                <th scope="col">ID</th>
+                <th scope="col">Phim</th>
+                <th scope="col">Người dùng</th>
+                <th scope="col">Đánh giá</th>
+                <th scope="col">Ngày tạo</th>
+                <th scope="col">Hành động</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var rating in Model)
+            {
+                <tr>
+                    <td>@rating.RatingId</td>
+                    <td>@rating.MovieTitle</td>
+                    <td>
+                        <div class="d-flex align-items-center">
+                            <span>@rating.UserName</span>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="rating-stars">
+                            @for (int i = 1; i <= 5; i++)
+                            {
+                                if (i <= rating.Stars)
+                                {
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                }
+                                else
+                                {
+                                    <i class="bi bi-star text-secondary"></i>
+                                }
+                            }
+                            <span class="ms-2">@rating.Stars/5</span>
+                        </div>
+                    </td>
+                    <td>@rating.RateAt.ToString("dd/MM/yyyy HH:mm")</td>
+                    <td>
+                        <button type="button" class="btn btn-sm btn-danger"
+                                data-bs-toggle="modal"
+                                data-bs-target="#deleteRatingModal"
+                                data-rating-id="@rating.RatingId"
+                                data-movie-title="@rating.MovieTitle"
+                                data-user-name="@rating.UserName"
+                                data-stars="@rating.Stars">
+                            <i class="bi bi-trash"></i>
+                        </button>
+                    </td>
+                </tr>
+            }
+            @if (!Model.Any())
+            {
+                <tr>
+                    <td colspan="6" class="text-center py-3">
+                        <em>No ratings found @(searchTerm != "" ? $"matching '{searchTerm}'" : "")</em>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<!-- Delete Rating Modal -->
+<div class="modal fade" id="deleteRatingModal" tabindex="-1" aria-labelledby="deleteRatingModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header bg-danger text-white">
+                <h5 class="modal-title" id="deleteRatingModalLabel">Xác nhận</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Bạn có chắc muốn xóa đánh giá này?</p>
+                <p><strong>Phim:</strong> <span id="movieTitleToDelete"></span></p>
+                <p><strong>Người dùng:</strong> <span id="userNameToDelete"></span></p>
+                <p><strong>Đánh giá:</strong> <span id="starsToDelete"></span>/5</p>
+                <p class="text-danger mb-0"><strong>Cảnh báo:</strong> Không thể hoàn tác hành động này.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Hủy</button>
+                <form id="deleteRatingForm" asp-controller="Admin" asp-action="DeleteRating" method="post">
+                    @Html.AntiForgeryToken()
+                    <input type="hidden" id="ratingIdToDelete" name="id" />
+                    <button type="submit" class="btn btn-danger">Xóa</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('Ratings admin page loaded');
+
+            // Setup delete rating modal
+            const deleteRatingModal = document.getElementById('deleteRatingModal');
+            if (deleteRatingModal) {
+                deleteRatingModal.addEventListener('show.bs.modal', function(event) {
+                    const button = event.relatedTarget;
+                    const ratingId = button.getAttribute('data-rating-id');
+                    const movieTitle = button.getAttribute('data-movie-title');
+                    const userName = button.getAttribute('data-user-name');
+                    const stars = button.getAttribute('data-stars');
+
+                    const inputId = deleteRatingModal.querySelector('#ratingIdToDelete');
+                    const movieTitleSpan = deleteRatingModal.querySelector('#movieTitleToDelete');
+                    const userNameSpan = deleteRatingModal.querySelector('#userNameToDelete');
+                    const starsSpan = deleteRatingModal.querySelector('#starsToDelete');
+
+                    if (inputId) inputId.value = ratingId;
+                    if (movieTitleSpan) movieTitleSpan.textContent = movieTitle;
+                    if (userNameSpan) userNameSpan.textContent = userName;
+                    if (starsSpan) starsSpan.textContent = stars;
+                });
+            }
+
+            // Setup sort dropdown functionality
+            const sortOptions = document.querySelectorAll('.sort-option');
+            const sortOrderInput = document.getElementById('sortOrderInput');
+            const searchForm = document.getElementById('searchForm');
+
+            sortOptions.forEach(option => {
+                option.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const sortValue = this.getAttribute('data-sort');
+                    sortOrderInput.value = sortValue;
+                    searchForm.submit();
+                });
+            });
+        });
+    </script>
+}

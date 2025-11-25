@@ -1,0 +1,129 @@
+﻿@inject MovieWebsite.Data.AppDbContext _context
+
+@{
+    var categories = _context.Categories.OrderBy(c => c.CategoryName).ToList();
+    var countries = _context.Movies.Select(m => m.Country).Distinct().OrderBy(c => c).ToList();
+
+    var fullName = User.Identity.Name ?? "";
+    var nameParts = fullName.Split(' ', StringSplitOptions.RemoveEmptyEntries);
+    var displayName = nameParts.Length >= 2
+        ? nameParts[^2] + " " + nameParts[^1]
+        : fullName;
+}
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - MovieZone</title>
+
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/MovieWebsite.styles.css" asp-append-version="true" />
+ @*    <link rel="stylesheet" href="~/css/layout1.css" /> *@
+
+    @RenderSection("Styles", required: false)
+</head>
+<body class="d-flex flex-column min-vh-100">
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
+            <div class="container">
+                <a class="navbar-brand" asp-controller="Home" asp-action="Index">🎬 PhimHay</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav me-auto">
+                        @if (User.Identity.IsAuthenticated)
+                        {
+                            <li class="nav-item"><a class="nav-link" href="/Home/Index">Trang chủ</a></li>
+                            <li class="nav-item"><a class="nav-link" href="/Movie/Index">Tổng hợp</a></li>
+                            <li class="nav-item"><a class="nav-link" href="@Url.Action("Filter", "Movie", new { isNew = true })">Phim mới</a></li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownCategory" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Thể loại
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownCategory">
+                                    @foreach (var cat in categories)
+                                    {
+                                        <li><a class="dropdown-item" href="@Url.Action("Filter", "Movie", new { category = cat.CategoryName })">@cat.CategoryName</a></li>
+                                    }
+                                </ul>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownCountry" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Quốc gia
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownCountry">
+                                    @foreach (var country in countries)
+                                    {
+                                        <li><a class="dropdown-item" href="@Url.Action("Filter", "Movie", new { country = country })">@country</a></li>
+                                    }
+                                </ul>
+                            </li>
+                        }
+                    </ul>
+
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        <form asp-controller="Movie" asp-action="Search" method="get" class="d-flex" role="search">
+                            <input name="query" class="form-control me-2" type="search" placeholder="Tìm phim..." />
+                            <button class="btn btn-outline-light" type="submit">🔍</button>
+                        </form>
+                    }
+
+                    <ul class="navbar-nav ms-3">
+                        @if (!User.Identity.IsAuthenticated)
+                        {
+                            <li class="nav-item"><a class="nav-link" href="/Account/Login">Đăng nhập</a></li>
+                            <li class="nav-item"><a class="nav-link" href="/Account/Register">Đăng ký</a></li>
+                        }
+                        else
+                        {
+                            <li class="nav-item"><a class="nav-link" href="/Account/Profile">@displayName</a></li>
+                            <li class="nav-item"><a class="nav-link" href="/Account/Logout">Đăng xuất</a></li>
+                        }
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container-fluid mt-5 pt-4 flex-grow-1">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="bg-dark text-white text-center py-4 mt-auto">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4"><h5>PhimHay</h5><p>Khám phá thế giới điện ảnh đỉnh cao.</p></div>
+                <div class="col-md-4">
+                    <h5>Liên kết</h5>
+                    <a class="d-block text-white" asp-controller="Home" asp-action="Privacy">Chính sách bảo mật</a>
+                    <a class="d-block text-white" href="#">Điều khoản sử dụng</a>
+                </div>
+                <div class="col-md-4">
+                    <h5>Theo dõi</h5>
+                    <a href="#" class="text-white me-2">Facebook</a>
+                    <a href="#" class="text-white me-2">Instagram</a>
+                    <a href="#" class="text-white me-2">YouTube</a>
+                </div>
+            </div>
+            <p class="mt-3 mb-0">© 2025 - MovieZone</p>
+        </div>
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

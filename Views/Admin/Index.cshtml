@@ -1,0 +1,48 @@
+﻿@{
+    Layout = null;
+}
+@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    ViewData["Title"] = "Admin Dashboard";
+}
+<div class="container-fluid mt-4">
+    <h2>Admin Dashboard</h2>
+    <div class="row mt-4">
+        <div class="col-md-3">
+            <div class="card text-white bg-primary mb-3">
+                <div class="card-header">Total Movies</div>
+                <div class="card-body">
+                    <h5 class="card-title">@ViewBag.TotalMovies</h5>
+                    <p class="card-text">Movies available in system</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card text-white bg-success mb-3">
+                <div class="card-header">Total Users</div>
+                <div class="card-body">
+                    <h5 class="card-title">@ViewBag.TotalUsers</h5>
+                    <p class="card-text">Registered users</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card text-white bg-warning mb-3">
+                <div class="card-header">Total Comments</div>
+                <div class="card-body">
+                    <h5 class="card-title">@ViewBag.TotalComments</h5>
+                    <p class="card-text">User feedbacks and comments</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card text-white bg-danger mb-3">
+                <div class="card-header">Total Ratings</div>
+                <div class="card-body">
+                    <h5 class="card-title">@ViewBag.TotalRatings</h5>
+                    <p class="card-text">Movie ratings by users</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
