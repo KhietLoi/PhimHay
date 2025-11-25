@@ -601,40 +601,7 @@ namespace MovieWebsite.Controllers
             return RedirectToAction("Users");
         }
 
-        //// GET: /Admin/AddUser
-        //[HttpGet]
-        //public IActionResult AddUser()
-        //{
-        //    return View();
-        //}
-
-        //// POST: /Admin/AddUser
-        //[HttpPost]
-        //[ValidateAntiForgeryToken]
-        //public async Task<IActionResult> AddUser(User model, string password)
-        //{
-        //    if (!ModelState.IsValid)
-        //    {
-        //        return View(model);
-        //    }
-
-        //    // Generate a user ID (similar to movie ID pattern)
-        //    int totalUsers = await _context.Users.CountAsync();
-        //    string nextId = $"USR{(totalUsers + 1).ToString("D3")}"; // USR001, USR002...
-
-        //    model.UserId = nextId;
-        //    model.CreatedAt = DateTime.Now;
-
-        //    // TODO: Hash the password before storing
-        //    // model.PasswordHash = HashPassword(password);
-
-        //    _context.Users.Add(model);
-        //    await _context.SaveChangesAsync();
-
-        //    TempData["SuccessMessage"] = "User added successfully!";
-        //    return RedirectToAction("Users");
-        //}
-
+       
 
         // Add these methods to your existing AdminController.cs file
 

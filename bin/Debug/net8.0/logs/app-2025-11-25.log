@@ -278,3 +278,30 @@
 2025-11-25 12:59:23 | INFO | MovieWebsite.Controllers.HomeController | Lấy danh sách phim thành công - Tổng số: 21 
 2025-11-25 12:59:23 | INFO | MovieWebsite.Controllers.HomeController | Lấy 3 phim nổi bật thành công 
 2025-11-25 12:59:24 | INFO | MovieWebsite.Controllers.AccountController | Người dùng đăng xuất: khietloi2004.dev.net@gmail.com 
+2025-11-25 13:03:03 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu tải trang chủ 
+2025-11-25 13:03:05 | INFO | MovieWebsite.Controllers.HomeController | Lấy danh sách phim thành công - Tổng số: 21 
+2025-11-25 13:03:05 | INFO | MovieWebsite.Controllers.HomeController | Lấy 3 phim nổi bật thành công 
+2025-11-25 13:03:08 | INFO | MovieWebsite.Controllers.AccountController | Người dùng đăng xuất: admin@example.com 
+2025-11-25 13:03:23 | INFO | MovieWebsite.Controllers.AccountController | Đăng nhập thử với email: admin@example.com 
+2025-11-25 13:03:24 | INFO | MovieWebsite.Controllers.AccountController | Đăng nhập thành công cho user: admin@example.com, Role: admin 
+2025-11-25 13:03:24 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu tải dữ liệu tổng quan cho trang admin 
+2025-11-25 13:03:24 | INFO | MovieWebsite.Controllers.AdminController | Tải dữ liệu tổng quan thành công 
+2025-11-25 13:03:25 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu tải danh sách người dùng - SearchTerm: (null), SortOrder: (null) 
+2025-11-25 13:03:25 | INFO | MovieWebsite.Controllers.AdminController | Sắp xếp danh sách người dùng theo thời gian tạo mới nhất 
+2025-11-25 13:03:25 | INFO | MovieWebsite.Controllers.AdminController | Tải danh sách người dùng thành công - Tổng số: 3 
+2025-11-25 13:03:25 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu tải danh sách người dùng - SearchTerm: (null), SortOrder: (null) 
+2025-11-25 13:03:25 | INFO | MovieWebsite.Controllers.AdminController | Sắp xếp danh sách người dùng theo thời gian tạo mới nhất 
+2025-11-25 13:03:25 | INFO | MovieWebsite.Controllers.AdminController | Tải danh sách người dùng thành công - Tổng số: 3 
+2025-11-25 13:03:27 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu tải danh sách phim - SearchTerm: (null), SortOrder: (null) 
+2025-11-25 13:03:27 | INFO | MovieWebsite.Controllers.AdminController | Sắp xếp danh sách phim theo thời gian tạo mới nhất 
+2025-11-25 13:03:27 | INFO | MovieWebsite.Controllers.AdminController | Tải danh sách phim thành công - Tổng số: 21 
+2025-11-25 13:03:27 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu tải danh sách phim - SearchTerm: (null), SortOrder: (null) 
+2025-11-25 13:03:27 | INFO | MovieWebsite.Controllers.AdminController | Sắp xếp danh sách phim theo thời gian tạo mới nhất 
+2025-11-25 13:03:27 | INFO | MovieWebsite.Controllers.AdminController | Tải danh sách phim thành công - Tổng số: 21 
+2025-11-25 13:03:28 | INFO | MovieWebsite.Controllers.AdminController | Bắt đầu tải danh sách bình luận - SortOrder: newest, SearchTerm:  
+2025-11-25 13:03:28 | INFO | MovieWebsite.Controllers.AdminController | Sắp xếp danh sách bình luận theo thời gian mới nhất 
+2025-11-25 13:03:28 | INFO | MovieWebsite.Controllers.AdminController | Tải danh sách bình luận thành công - Tổng số: 2 
+2025-11-25 13:03:39 | INFO | MovieWebsite.Controllers.HomeController | Bắt đầu tải trang chủ 
+2025-11-25 13:03:40 | INFO | MovieWebsite.Controllers.HomeController | Lấy danh sách phim thành công - Tổng số: 21 
+2025-11-25 13:03:40 | INFO | MovieWebsite.Controllers.HomeController | Lấy 3 phim nổi bật thành công 
+2025-11-25 13:03:42 | INFO | MovieWebsite.Controllers.AccountController | Người dùng đăng xuất: admin@example.com 

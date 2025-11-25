@@ -512,7 +512,6 @@ C:\Users\lpn31\Computer\.NET_Final\obj\Debug\net8.0\MovieWebsite.csproj.CoreComp
 C:\Users\lpn31\Computer\.NET_Final\obj\Debug\net8.0\MovieWebsite.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\lpn31\Computer\.NET_Final\obj\Debug\net8.0\MovieWebsite.RazorAssemblyInfo.cache
 C:\Users\lpn31\Computer\.NET_Final\obj\Debug\net8.0\MovieWebsite.RazorAssemblyInfo.cs
-C:\Users\lpn31\Computer\.NET_Final\obj\Debug\net8.0\MovieWebsite.sourcelink.json
 C:\Users\lpn31\Computer\.NET_Final\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\lpn31\Computer\.NET_Final\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\lpn31\Computer\.NET_Final\obj\Debug\net8.0\staticwebassets\msbuild.MovieWebsite.Microsoft.AspNetCore.StaticWebAssets.props

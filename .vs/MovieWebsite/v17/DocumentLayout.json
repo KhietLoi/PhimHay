@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\lpn31\\Computer\\.NET_Final\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0D13894F-5B0D-426C-B0F6-EF9A65E6F93E}|MovieWebsite.csproj|c:\\users\\lpn31\\computer\\.net_final\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D13894F-5B0D-426C-B0F6-EF9A65E6F93E}|MovieWebsite.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0D13894F-5B0D-426C-B0F6-EF9A65E6F93E}|MovieWebsite.csproj|c:\\users\\lpn31\\computer\\.net_final\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D13894F-5B0D-426C-B0F6-EF9A65E6F93E}|MovieWebsite.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D13894F-5B0D-426C-B0F6-EF9A65E6F93E}|MovieWebsite.csproj|c:\\users\\lpn31\\computer\\.net_final\\models\\movielistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D13894F-5B0D-426C-B0F6-EF9A65E6F93E}|MovieWebsite.csproj|solutionrelative:models\\movielistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0D13894F-5B0D-426C-B0F6-EF9A65E6F93E}|MovieWebsite.csproj|c:\\users\\lpn31\\computer\\.net_final\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0D13894F-5B0D-426C-B0F6-EF9A65E6F93E}|MovieWebsite.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D13894F-5B0D-426C-B0F6-EF9A65E6F93E}|MovieWebsite.csproj|c:\\users\\lpn31\\computer\\.net_final\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D13894F-5B0D-426C-B0F6-EF9A65E6F93E}|MovieWebsite.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0D13894F-5B0D-426C-B0F6-EF9A65E6F93E}|MovieWebsite.csproj|c:\\users\\lpn31\\computer\\.net_final\\wwwroot\\css\\layout1.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
@@ -21,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{0D13894F-5B0D-426C-B0F6-EF9A65E6F93E}|MovieWebsite.csproj|c:\\users\\lpn31\\computer\\.net_final\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{0D13894F-5B0D-426C-B0F6-EF9A65E6F93E}|MovieWebsite.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0D13894F-5B0D-426C-B0F6-EF9A65E6F93E}|MovieWebsite.csproj|c:\\users\\lpn31\\computer\\.net_final\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D13894F-5B0D-426C-B0F6-EF9A65E6F93E}|MovieWebsite.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0D13894F-5B0D-426C-B0F6-EF9A65E6F93E}|MovieWebsite.csproj|c:\\users\\lpn31\\computer\\.net_final\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -70,19 +74,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\lpn31\\Computer\\.NET_Final\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\lpn31\\Computer\\.NET_Final\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-13T15:30:16.352Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\lpn31\\Computer\\.NET_Final\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -94,7 +86,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "AccountController.cs",
               "DocumentMoniker": "C:\\Users\\lpn31\\Computer\\.NET_Final\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
@@ -106,7 +98,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "_AdminLayout.cshtml",
               "DocumentMoniker": "C:\\Users\\lpn31\\Computer\\.NET_Final\\Views\\Shared\\_AdminLayout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_AdminLayout.cshtml",
@@ -118,7 +110,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\lpn31\\Computer\\.NET_Final\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
@@ -131,19 +123,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "AdminController.cs",
               "DocumentMoniker": "C:\\Users\\lpn31\\Computer\\.NET_Final\\Controllers\\AdminController.cs",
               "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
               "ToolTip": "C:\\Users\\lpn31\\Computer\\.NET_Final\\Controllers\\AdminController.cs",
               "RelativeToolTip": "Controllers\\AdminController.cs",
-              "ViewState": "AQIAADQAAAAAAAAAAAAxwEoAAAARAAAA",
+              "ViewState": "AQIAAAYDAAAAAAAAAAAAAAcDAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T05:21:36.884Z"
+              "WhenOpened": "2025-05-12T05:21:36.884Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\lpn31\\Computer\\.NET_Final\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\lpn31\\Computer\\.NET_Final\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-13T15:30:16.352Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "EditMovie.cshtml",
               "DocumentMoniker": "C:\\Users\\lpn31\\Computer\\.NET_Final\\Views\\Admin\\EditMovie.cshtml",
               "RelativeDocumentMoniker": "Views\\Admin\\EditMovie.cshtml",
@@ -155,7 +160,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "EditUser.cshtml",
               "DocumentMoniker": "C:\\Users\\lpn31\\Computer\\.NET_Final\\Views\\Admin\\EditUser.cshtml",
               "RelativeDocumentMoniker": "Views\\Admin\\EditUser.cshtml",
@@ -167,7 +172,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\lpn31\\Computer\\.NET_Final\\Views\\Admin\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Admin\\Index.cshtml",
@@ -181,8 +186,21 @@
         },
         {
           "DockedWidth": 112,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MovieListViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\lpn31\\Computer\\.NET_Final\\Models\\MovieListViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\MovieListViewModel.cs",
+              "ToolTip": "C:\\Users\\lpn31\\Computer\\.NET_Final\\Models\\MovieListViewModel.cs",
+              "RelativeToolTip": "Models\\MovieListViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T06:02:28.534Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
@@ -201,20 +219,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\lpn31\\Computer\\.NET_Final\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\lpn31\\Computer\\.NET_Final\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-25T05:41:41.674Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "layout1.css",
               "DocumentMoniker": "C:\\Users\\lpn31\\Computer\\.NET_Final\\wwwroot\\css\\layout1.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\layout1.css",
@@ -226,7 +244,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "20251125053445_InitialCreate.cs",
               "DocumentMoniker": "C:\\Users\\lpn31\\Computer\\.NET_Final\\Migrations\\20251125053445_InitialCreate.cs",
               "RelativeDocumentMoniker": "Migrations\\20251125053445_InitialCreate.cs",
@@ -238,7 +256,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\lpn31\\Computer\\.NET_Final\\appsettings.Development.json",
               "RelativeDocumentMoniker": "appsettings.Development.json",
